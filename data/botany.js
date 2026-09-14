@@ -6,12 +6,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A flower is zygomorphic and papilionaceous, with ten stamens usually arranged as (9)+1. It belongs to:",
     "options": [
-      "Fabaceae",
       "Solanaceae",
+      "Fabaceae",
       "Liliaceae",
       "Brassicaceae"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Papilionaceous corolla and diadelphous (9)+1 stamens are characteristic features of Fabaceae."
   },
   {
@@ -22,11 +22,11 @@ window.BOTANY_QUESTIONS = [
     "question": "In vexillary aestivation of Fabaceae:",
     "options": [
       "the keel petal overlaps all other petals",
-      "the largest standard petal overlaps the two wings",
+      "each petal overlaps the next in one direction",
       "all five petals meet but do not overlap",
-      "each petal overlaps the next in one direction"
+      "the largest standard petal overlaps the two wings"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The posterior standard or vexillum is outermost and overlaps the two lateral wings, which overlap the two keel petals."
   },
   {
@@ -36,12 +36,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The typical androecium of pea is:",
     "options": [
-      "10 diadelphous stamens (9)+1",
+      "numerous monadelphous stamens",
       "6 epiphyllous stamens",
       "5 epipetalous stamens",
-      "numerous monadelphous stamens"
+      "10 diadelphous stamens (9)+1"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Pea shows ten stamens, with nine united and one free, described as diadelphous (9)+1."
   },
   {
@@ -66,12 +66,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Which fruit–seed combination is typical of Fabaceae?",
     "options": [
-      "Legume; generally non-endospermic seeds",
       "Capsule; winged seeds",
+      "Legume; generally non-endospermic seeds",
       "Berry; endospermic seeds",
       "Drupe; one endospermic seed"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The characteristic fruit is a legume, and mature seeds are commonly non-endospermic."
   },
   {
@@ -81,12 +81,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A typical Solanaceae flower is:",
     "options": [
-      "actinomorphic, bisexual and pentamerous",
       "zygomorphic, unisexual and trimerous",
+      "actinomorphic, bisexual and pentamerous",
       "actinomorphic, unisexual and tetramerous",
       "zygomorphic, bisexual and trimerous"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Solanaceae flowers are generally radially symmetric, bisexual and five-merous."
   },
   {
@@ -96,12 +96,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The five stamens of Solanaceae are usually:",
     "options": [
-      "free and opposite the petals",
+      "epipetalous and alternating with petals",
       "diadelphous and ten in number",
       "epiphyllous and three in number",
-      "epipetalous and alternating with petals"
+      "free and opposite the petals"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Solanaceae has five stamens attached to the corolla tube (epipetalous) and alternating with petals."
   },
   {
@@ -111,12 +111,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The ovary in Solanaceae is typically:",
     "options": [
-      "superior, monocarpellary with marginal placentation",
-      "inferior, tricarpellary with parietal placentation",
       "superior, bicarpellary, syncarpous with axile placentation",
+      "inferior, tricarpellary with parietal placentation",
+      "superior, monocarpellary with marginal placentation",
       "half-inferior and unilocular with basal placentation"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Two fused carpels form a superior, usually bilocular ovary with swollen axile placenta."
   },
   {
@@ -157,11 +157,11 @@ window.BOTANY_QUESTIONS = [
     "question": "In Liliaceae, the floral envelope is commonly described as:",
     "options": [
       "calyx 5 plus corolla 5",
-      "six petaloid tepals arranged 3+3",
+      "a papilionaceous corolla",
       "four sepals and four petals",
-      "a papilionaceous corolla"
+      "six petaloid tepals arranged 3+3"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Sepals and petals are not sharply differentiated; six petaloid tepals occur in two whorls of three."
   },
   {
@@ -187,11 +187,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The gynoecium of Liliaceae is generally:",
     "options": [
       "monocarpellary, unilocular and inferior",
-      "bicarpellary, syncarpous and inferior",
       "tricarpellary, syncarpous, trilocular and superior",
+      "bicarpellary, syncarpous and inferior",
       "five-carpellary with marginal placentation"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Three fused carpels form a superior, trilocular ovary with axile placentation."
   },
   {
@@ -201,12 +201,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Which vegetative combination commonly occurs in Liliaceae?",
     "options": [
-      "Tap root and reticulate venation",
+      "Fibrous root and parallel venation",
       "Pneumatophores and net venation",
       "Prop roots and dichotomous venation",
-      "Fibrous root and parallel venation"
+      "Tap root and reticulate venation"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "As a monocot family, Liliaceae commonly has fibrous roots and leaves with parallel venation."
   },
   {
@@ -233,10 +233,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "thick lignified walls and large intercellular spaces",
       "large vacuoles and no nuclei",
-      "dense cytoplasm, prominent nuclei and active division",
-      "dead protoplasts and suberised walls"
+      "dead protoplasts and suberised walls",
+      "dense cytoplasm, prominent nuclei and active division"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Young meristematic cells actively divide and characteristically have dense cytoplasm, prominent nuclei and little or no vacuolation."
   },
   {
@@ -262,11 +262,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Intercalary meristem is commonly located:",
     "options": [
       "at root cap only",
-      "between mature tissues, often near internode or leaf bases",
       "inside vessel elements",
+      "between mature tissues, often near internode or leaf bases",
       "only in the bark of woody dicots"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Intercalary meristem is a portion of primary meristem left between mature regions, prominent near nodes or leaf bases in grasses."
   },
   {
@@ -276,12 +276,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Which tissue consists of living, thin-walled cells and often performs storage and photosynthesis?",
     "options": [
-      "Sclerenchyma",
       "Parenchyma",
+      "Sclerenchyma",
       "Xylem fibres",
       "Cork"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Parenchyma cells are living and thin-walled; chlorenchyma photosynthesises and other forms commonly store food."
   },
   {
@@ -292,11 +292,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Uneven thickening at the cell corners is characteristic of:",
     "options": [
       "parenchyma",
-      "collenchyma",
+      "vessel elements",
       "sclereids",
-      "vessel elements"
+      "collenchyma"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Collenchyma has living elongated cells with cellulose, hemicellulose and pectin thickening at the corners, providing flexibility."
   },
   {
@@ -308,10 +308,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "living and chlorophyllous",
       "thin-walled and highly vacuolated",
-      "living with corner thickening only",
-      "dead with thick lignified walls"
+      "dead with thick lignified walls",
+      "living with corner thickening only"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Sclerenchyma provides mechanical strength through dead cells with heavily lignified secondary walls."
   },
   {
@@ -336,12 +336,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Which phloem element is generally dead at maturity?",
     "options": [
-      "Sieve-tube element",
-      "Companion cell",
       "Phloem fibre",
+      "Companion cell",
+      "Sieve-tube element",
       "Phloem parenchyma"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Phloem fibres (bast fibres) are sclerenchymatous and dead; the main conducting and associated cells are living."
   },
   {
@@ -352,11 +352,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The stomatal apparatus includes:",
     "options": [
       "a stoma and only xylem cells",
-      "a stomatal pore, two guard cells and associated subsidiary cells",
+      "a lenticel and cork cells",
       "one guard cell and one trichome",
-      "a lenticel and cork cells"
+      "a stomatal pore, two guard cells and associated subsidiary cells"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The pore, its two guard cells and nearby subsidiary cells together form the stomatal apparatus."
   },
   {
@@ -413,10 +413,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "endarch",
       "concentric",
-      "mesarch",
-      "exarch"
+      "exarch",
+      "mesarch"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Protoxylem lies toward the periphery and metaxylem toward the centre, an exarch condition."
   },
   {
@@ -427,11 +427,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Compared with a dicot root, a typical monocot root usually has:",
     "options": [
       "fewer than four xylem bundles and no pith",
-      "many xylem bundles and a large pith",
       "conjoint open bundles in a ring",
+      "many xylem bundles and a large pith",
       "endarch xylem and secondary growth"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Monocot roots are commonly polyarch with a large, well-developed pith and ordinarily lack secondary growth."
   },
   {
@@ -458,10 +458,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "radial and exarch",
       "concentric and amphicribral",
-      "conjoint, collateral, closed and scattered",
-      "conjoint, collateral, open and arranged in a ring"
+      "conjoint, collateral, open and arranged in a ring",
+      "conjoint, collateral, closed and scattered"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Dicot stems possess ring-arranged bundles with phloem outside, xylem inside and cambium between them."
   },
   {
@@ -487,11 +487,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The water-containing cavity commonly seen within a monocot stem vascular bundle is the:",
     "options": [
       "resin canal",
-      "secretory duct",
+      "protoxylem lacuna",
       "lenticel",
-      "protoxylem lacuna"
+      "secretory duct"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Disintegration of protoxylem elements produces a protoxylem lacuna in many monocot stems."
   },
   {
@@ -502,11 +502,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Which comparison is correct?<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Feature</th><th>Dicot stem</th><th>Monocot stem</th></tr></thead><tbody><tr><td>I</td><td>Bundles in ring</td><td>Bundles scattered</td></tr><tr><td>II</td><td>Bundles open</td><td>Bundles closed</td></tr><tr><td>III</td><td>Hypodermis usually collenchymatous</td><td>Hypodermis usually sclerenchymatous</td></tr></tbody></table></div>",
     "options": [
       "I only",
-      "I, II and III",
       "II and III only",
+      "I, II and III",
       "I and II only"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "All three are standard distinctions between young dicot and monocot stems."
   },
   {
@@ -531,12 +531,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Bulliform cells of a grass leaf occur mainly in the:",
     "options": [
-      "lower epidermis",
       "upper epidermis",
+      "lower epidermis",
       "vascular cambium",
       "bundle phloem"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Large, thin-walled bulliform cells occur in groups in the upper epidermis and help leaf rolling during water stress."
   },
   {
@@ -561,12 +561,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Which feature most strongly identifies an isobilateral monocot leaf?",
     "options": [
-      "Palisade tissue only below the upper epidermis",
-      "Stomata mainly restricted to lower surface",
       "Undifferentiated mesophyll and stomata on both surfaces",
+      "Stomata mainly restricted to lower surface",
+      "Palisade tissue only below the upper epidermis",
       "Radial vascular bundles with exarch xylem"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Monocot leaves commonly have similar upper and lower surfaces, stomata on both, and mesophyll not separated into palisade and spongy regions."
   },
   {
@@ -577,11 +577,11 @@ window.BOTANY_QUESTIONS = [
     "question": "During normal secondary growth in a dicot stem, vascular cambium produces:",
     "options": [
       "secondary phloem inward and secondary xylem outward",
-      "cork outward and phelloderm inward",
       "secondary xylem inward and secondary phloem outward",
+      "cork outward and phelloderm inward",
       "primary xylem and primary phloem only"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Cambial cells cut off more secondary xylem toward the pith and secondary phloem toward the outside."
   },
   {
@@ -593,10 +593,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "apical and intercalary meristems",
       "primary xylem and medullary ray",
-      "cork cambium and pericycle",
-      "intrafascicular and interfascicular cambia"
+      "intrafascicular and interfascicular cambia",
+      "cork cambium and pericycle"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Cambium within bundles joins newly formed cambium between bundles to create a continuous ring."
   },
   {
@@ -621,12 +621,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The physiologically active, lighter-coloured outer secondary xylem that conducts water is:",
     "options": [
-      "heartwood",
       "sapwood",
+      "heartwood",
       "phellem",
       "phelloderm"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Sapwood is the younger outer wood involved in water and mineral conduction; inner heartwood is non-conducting."
   },
   {
@@ -651,12 +651,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The simplified stem sector shows tissue X produced outside and tissue Y produced inside by the same lateral meristem.<div class='diagram-card'><svg viewBox='0 0 420 170' role='img' aria-label='Concentric stem tissues around cork cambium'><rect x='25' y='35' width='370' height='100' rx='48' fill='#f2dfca' stroke='#8a5a2b' stroke-width='3'/><rect x='70' y='53' width='280' height='64' rx='32' fill='#d8f0d2' stroke='#3e7d42' stroke-width='3'/><rect x='122' y='68' width='176' height='34' rx='17' fill='#fff9e8' stroke='#b18a2d' stroke-width='3'/><text x='48' y='90' text-anchor='middle' font-size='15'>X</text><text x='95' y='90' text-anchor='middle' font-size='15'>cork cambium</text><text x='210' y='91' text-anchor='middle' font-size='15'>Y</text></svg></div>X and Y are respectively:",
     "options": [
-      "phellem and phelloderm",
-      "phelloderm and phellem",
       "secondary xylem and secondary phloem",
+      "phelloderm and phellem",
+      "phellem and phelloderm",
       "epidermis and pericycle"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Cork cambium produces phellem toward the outside and phelloderm toward the inside; together they form periderm."
   },
   {
@@ -667,11 +667,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Which statement about lenticels is correct?",
     "options": [
       "They are permanently closed stomata of secondary xylem",
-      "They permit gaseous exchange through the periderm",
+      "They produce annual rings",
       "They transport sugars through heartwood",
-      "They produce annual rings"
+      "They permit gaseous exchange through the periderm"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Lenticels are loosely arranged complementary cells in the periderm that allow exchange of gases between internal tissues and the atmosphere."
   }
 ];

@@ -21,12 +21,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A net horizontal force of 10 N acts on a 2 kg block on a smooth surface. Its acceleration is:",
     "options": [
-      "5 m s⁻²",
+      "20 m s⁻²",
       "2 m s⁻²",
       "10 m s⁻²",
-      "20 m s⁻²"
+      "5 m s⁻²"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Using F = ma, a = 10/2 = 5 m s⁻²."
   },
   {
@@ -53,10 +53,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "Weight of the book and normal force on the book",
       "Force of the book on the table and weight of the book",
-      "Normal force on the book and weight of the table",
-      "Force of Earth on the book and force of the book on Earth"
+      "Force of Earth on the book and force of the book on Earth",
+      "Normal force on the book and weight of the table"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Earth's pull on the book and the book's pull on Earth are equal, opposite, and act on different bodies."
   },
   {
@@ -67,11 +67,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "Two blocks of masses 2 kg and 3 kg are in contact on a smooth horizontal surface. A 20 N force pushes the 2 kg block toward the 3 kg block. The contact force between them is:",
     "options": [
       "8 N",
-      "10 N",
       "12 N",
+      "10 N",
       "20 N"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "The common acceleration is 20/(2+3) = 4 m s⁻². The contact force accelerating the 3 kg block is 3×4 = 12 N."
   },
   {
@@ -81,12 +81,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Two blocks, 4 kg and 6 kg, are tied by a light string on a smooth table. A 30 N horizontal force is applied to the 6 kg block. The tension in the string is:",
     "options": [
-      "12 N",
       "10 N",
+      "12 N",
       "18 N",
       "30 N"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The system accelerates at 30/10 = 3 m s⁻². Tension is the force accelerating the 4 kg block: T = 4×3 = 12 N."
   },
   {
@@ -112,11 +112,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "A lift moves downward with constant speed. The apparent weight of a passenger of mass m is:",
     "options": [
       "zero",
-      "greater than mg",
+      "mg",
       "less than mg",
-      "mg"
+      "greater than mg"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Constant speed means zero acceleration, hence N − mg = 0 and N = mg."
   },
   {
@@ -126,12 +126,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A 0.2 kg ball moving at 10 m s⁻¹ along +x rebounds at 5 m s⁻¹ along −x. The magnitude of impulse on the ball is:",
     "options": [
-      "1 kg m s⁻¹",
-      "2 kg m s⁻¹",
       "3 kg m s⁻¹",
+      "2 kg m s⁻¹",
+      "1 kg m s⁻¹",
       "5 kg m s⁻¹"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Impulse magnitude = |m(v−u)| = |0.2(−5−10)| = 3 kg m s⁻¹."
   },
   {
@@ -142,11 +142,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "A force–time graph is triangular, rising uniformly from 0 to 10 N in 2 s and falling uniformly to 0 in the next 2 s. The impulse is:",
     "options": [
       "10 N s",
-      "20 N s",
       "30 N s",
+      "20 N s",
       "40 N s"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Impulse equals area under the F–t graph = ½×4×10 = 20 N s."
   },
   {
@@ -156,12 +156,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A 5 N horizontal force is applied to a block at rest. The limiting static friction is 8 N and the block does not move. The frictional force is:",
     "options": [
-      "0 N",
+      "5 N",
       "3 N",
       "8 N",
-      "5 N"
+      "0 N"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Static friction self-adjusts to match the applied force until its limiting value is reached."
   },
   {
@@ -172,11 +172,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "For a 10 kg block on a horizontal surface, μₛ = 0.4 and g = 10 m s⁻². The limiting friction is:",
     "options": [
       "4 N",
-      "25 N",
       "40 N",
+      "25 N",
       "100 N"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "N = mg = 100 N, so fₛ,max = μₛN = 0.4×100 = 40 N."
   },
   {
@@ -186,12 +186,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A 20 N horizontal force moves a 5 kg block on a rough horizontal surface. If μₖ = 0.2 and g = 10 m s⁻², its acceleration is:",
     "options": [
-      "2 m s⁻²",
+      "4 m s⁻²",
       "1 m s⁻²",
       "3 m s⁻²",
-      "4 m s⁻²"
+      "2 m s⁻²"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Kinetic friction = 0.2×50 = 10 N. Net force = 10 N, so a = 10/5 = 2 m s⁻²."
   },
   {
@@ -201,12 +201,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A 10 kg block is pulled by a 50 N force at 37° above the horizontal on a rough floor. If μₖ = 0.25, g = 10 m s⁻², sin37° = 0.6 and cos37° = 0.8, its acceleration is:",
     "options": [
-      "1.50 m s⁻²",
-      "3.00 m s⁻²",
       "2.25 m s⁻²",
+      "3.00 m s⁻²",
+      "1.50 m s⁻²",
       "4.00 m s⁻²"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "N = 100−30 = 70 N, fₖ = 17.5 N, horizontal pull = 40 N; a = (40−17.5)/10 = 2.25 m s⁻²."
   },
   {
@@ -233,10 +233,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "normal to the incline",
       "down the incline",
-      "up the incline",
-      "vertically upward"
+      "vertically upward",
+      "up the incline"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Friction opposes the impending relative motion, which is downward; therefore it acts up the incline."
   },
   {
@@ -246,12 +246,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The coefficient of static friction between a block and an inclined plane is 1/√3. The angle of repose is:",
     "options": [
-      "60°",
-      "45°",
       "30°",
+      "45°",
+      "60°",
       "90°"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "At the angle of repose, tanθ = μₛ = 1/√3, hence θ = 30°."
   },
   {
@@ -263,10 +263,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "5 m s⁻¹",
       "20 m s⁻¹",
-      "15 m s⁻¹",
-      "10 m s⁻¹"
+      "10 m s⁻¹",
+      "15 m s⁻¹"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Static friction supplies centripetal force. vₘₐₓ = √(μₛrg) = √(0.5×20×10) = 10 m s⁻¹."
   },
   {
@@ -276,12 +276,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "While a person walks forward without slipping, the horizontal force exerted by the ground on the person is:",
     "options": [
-      "forward static friction",
+      "zero",
       "backward static friction",
       "forward kinetic friction",
-      "zero"
+      "forward static friction"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The foot pushes the ground backward; the ground exerts forward static friction on the foot."
   },
   {
@@ -293,10 +293,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "are unequal",
       "act at different times",
-      "act on different bodies",
-      "are not oppositely directed"
+      "are not oppositely directed",
+      "act on different bodies"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "An action–reaction pair acts on two different interacting bodies, so the forces cannot cancel in one body's free-body diagram."
   },
   {
@@ -308,10 +308,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "0 J",
       "100 J",
-      "50 J",
-      "25 J"
+      "25 J",
+      "50 J"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "W = Fs cosθ = 10×5×cos60° = 25 J."
   },
   {
@@ -337,11 +337,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "For a body sliding on a rough horizontal surface, the work done by kinetic friction is generally:",
     "options": [
       "positive",
-      "zero",
       "negative",
+      "zero",
       "always infinite"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Kinetic friction opposes displacement, so the angle is 180° and its work is negative."
   },
   {
@@ -352,11 +352,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "The kinetic energy of a 2 kg object moving at 3 m s⁻¹ is:",
     "options": [
       "3 J",
-      "6 J",
+      "9 J",
       "18 J",
-      "9 J"
+      "6 J"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "K = ½mv² = ½×2×9 = 9 J."
   },
   {
@@ -366,12 +366,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A particle initially has 10 J kinetic energy. If the net work done on it is 40 J, its final kinetic energy is:",
     "options": [
-      "50 J",
       "40 J",
+      "50 J",
       "30 J",
       "400 J"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "By the work–energy theorem, Wnet = Kf−Ki; hence Kf = 10+40 = 50 J."
   },
   {
@@ -382,11 +382,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "Two particles have equal momentum. Their masses are m and 2m. The ratio of their kinetic energies Kₘ : K₂ₘ is:",
     "options": [
       "1:1",
-      "2:1",
       "1:2",
+      "2:1",
       "4:1"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "For fixed momentum, K = p²/(2m). Doubling mass halves kinetic energy, so the ratio is 2:1."
   },
   {
@@ -397,11 +397,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "The force along x varies as shown:<div class='data-table-wrap'><table class='data-table'><thead><tr><th>x (m)</th><th>0</th><th>2</th><th>3</th></tr></thead><tbody><tr><th>F (N)</th><td>0</td><td>10</td><td>10</td></tr></tbody></table></div>From 0–2 m, F rises linearly; from 2–3 m it is constant. Work done from 0 to 3 m is:",
     "options": [
       "10 J",
-      "20 J",
       "15 J",
+      "20 J",
       "30 J"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Area under F–x graph = triangle ½×2×10 plus rectangle 1×10 = 10+10 = 20 J."
   },
   {
@@ -411,12 +411,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A spring of force constant 200 N m⁻¹ is compressed by 0.10 m. Energy stored in it is:",
     "options": [
-      "0.5 J",
-      "2.0 J",
       "1.0 J",
+      "2.0 J",
+      "0.5 J",
       "10 J"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "U = ½kx² = ½×200×(0.10)² = 1 J."
   },
   {
@@ -426,12 +426,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A spring with k = 100 N m⁻¹ is released from compression x = 0.20 m to its natural length. Work done by the spring is:",
     "options": [
-      "2 J",
+      "4 J",
       "0 J",
       "−2 J",
-      "4 J"
+      "2 J"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Work done by spring equals decrease in spring potential energy: ½kx² = ½×100×0.04 = 2 J."
   },
   {
@@ -441,12 +441,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A 2 kg object is raised vertically through 5 m. Taking g = 10 m s⁻², the increase in gravitational potential energy is:",
     "options": [
-      "10 J",
       "100 J",
+      "10 J",
       "50 J",
       "25 J"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "ΔU = mgh = 2×10×5 = 100 J."
   },
   {
@@ -456,12 +456,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The work done by a conservative force over any closed path is:",
     "options": [
-      "zero",
       "negative",
+      "zero",
       "positive",
       "path dependent"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "For a conservative force, work depends only on endpoints; the endpoints coincide for a closed path, so work is zero."
   },
   {
@@ -471,12 +471,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A body starts from rest and slides down a smooth track through a vertical height of 5 m. For g = 10 m s⁻², its speed at the bottom is:",
     "options": [
-      "5 m s⁻¹",
-      "25 m s⁻¹",
       "10 m s⁻¹",
+      "25 m s⁻¹",
+      "5 m s⁻¹",
       "50 m s⁻¹"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "mgh = ½mv² gives v = √(2gh) = √100 = 10 m s⁻¹."
   },
   {
@@ -488,10 +488,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "6.3 m s⁻¹",
       "12.6 m s⁻¹",
-      "10.0 m s⁻¹",
-      "8.9 m s⁻¹"
+      "8.9 m s⁻¹",
+      "10.0 m s⁻¹"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Initial mgh = 100 J; final K = 100−20 = 80 J. Since ½(2)v²=80, v=√80≈8.9 m s⁻¹."
   },
   {
@@ -517,11 +517,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "A 100 N force acts on an object moving at 5 m s⁻¹. The angle between force and velocity is 60°. Instantaneous power is:",
     "options": [
       "100 W",
-      "250 W",
       "500 W",
+      "250 W",
       "1000 W"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "P = F·v = Fv cosθ = 100×5×0.5 = 250 W."
   },
   {
@@ -531,12 +531,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A 60 kg student climbs a vertical height of 10 m in 20 s. Take g = 10 m s⁻². Average power developed is:",
     "options": [
-      "30 W",
-      "600 W",
       "300 W",
+      "600 W",
+      "30 W",
       "3000 W"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "P = mgh/t = 60×10×10/20 = 300 W."
   },
   {
@@ -546,12 +546,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A pump lifts 100 kg of water per minute to a height of 12 m. Take g = 10 m s⁻². Its useful power is:",
     "options": [
-      "20 W",
+      "200 W",
       "120 W",
       "1200 W",
-      "200 W"
+      "20 W"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "P = mgh/t = 100×10×12/60 = 200 W."
   },
   {
@@ -561,12 +561,12 @@ window.PHYSICS_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A motor takes 2.0 kW electrical power and delivers 1.5 kW mechanical power. Its efficiency is:",
     "options": [
-      "75%",
+      "133%",
       "50%",
       "25%",
-      "133%"
+      "75%"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "Efficiency = useful output/input ×100 = 1.5/2.0×100 = 75%."
   },
   {
@@ -578,10 +578,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "4 kW",
       "8 kW",
-      "16 kW",
-      "40 kW"
+      "40 kW",
+      "16 kW"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "At constant speed, driving force equals resistance. P = Fv = 800×20 = 16000 W = 16 kW."
   },
   {
@@ -623,10 +623,10 @@ window.PHYSICS_QUESTIONS = [
     "options": [
       "12 N",
       "−6 N",
-      "6 N",
-      "−12 N"
+      "−12 N",
+      "6 N"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "F = −dU/dx = −6x; at x=2 m, F=−12 N."
   },
   {
@@ -652,11 +652,11 @@ window.PHYSICS_QUESTIONS = [
     "question": "The light string and ideal pulley connect 2 kg and 3 kg blocks as shown. Take g = 10 m s⁻².<div class='diagram-card'><svg viewBox='0 0 360 170' role='img' aria-label='Atwood machine with 2 kilogram and 3 kilogram masses'><line x1='180' y1='35' x2='180' y2='62' stroke='currentColor' stroke-width='5'/><circle cx='180' cy='78' r='28' fill='none' stroke='currentColor' stroke-width='5'/><path d='M152 78 L152 135 M208 78 L208 135' fill='none' stroke='currentColor' stroke-width='4'/><rect x='122' y='130' width='60' height='32' rx='6' fill='#d9f5ef' stroke='#087f6b' stroke-width='3'/><rect x='178' y='130' width='60' height='32' rx='6' fill='#e4efff' stroke='#2457a7' stroke-width='3'/><text x='152' y='152' text-anchor='middle' font-size='16'>2 kg</text><text x='208' y='152' text-anchor='middle' font-size='16'>3 kg</text></svg></div>The magnitude of acceleration and string tension are:",
     "options": [
       "4 m s⁻² and 12 N",
-      "2 m s⁻² and 30 N",
       "2 m s⁻² and 24 N",
+      "2 m s⁻² and 30 N",
       "5 m s⁻² and 20 N"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "a=(3−2)g/(3+2)=2 m s⁻². For the 2 kg rising block, T−20=2×2, so T=24 N."
   },
   {

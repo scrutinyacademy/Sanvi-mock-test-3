@@ -7,11 +7,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "In thermodynamics, the part of the universe selected for study is called the:",
     "options": [
       "surroundings",
-      "system",
       "boundary",
+      "system",
       "reservoir"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The system is the specified part under study; everything else constitutes the surroundings."
   },
   {
@@ -23,10 +23,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "Isolated system",
       "Closed system",
-      "Open system",
-      "Adiabatic closed system"
+      "Adiabatic closed system",
+      "Open system"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "An open system permits transfer of both matter and energy across its boundary."
   },
   {
@@ -36,12 +36,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A closed system may exchange with its surroundings:",
     "options": [
-      "energy only",
       "matter only",
+      "energy only",
       "both matter and energy",
       "neither matter nor energy"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "A closed system contains a fixed amount of matter but can exchange energy as heat or work."
   },
   {
@@ -51,12 +51,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "An ideal thermos flask is commonly approximated as a/an:",
     "options": [
-      "open system",
-      "closed isothermal system",
       "isolated system",
+      "closed isothermal system",
+      "open system",
       "homogeneous open system"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "An ideal isolated system exchanges neither matter nor energy with the surroundings."
   },
   {
@@ -67,11 +67,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "Which of the following is a state function?",
     "options": [
       "Heat q",
-      "Internal energy U",
       "Work w",
+      "Internal energy U",
       "Distance travelled"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Internal energy depends only on the state. Heat and work depend on the path followed."
   },
   {
@@ -81,12 +81,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Which property is extensive?",
     "options": [
-      "Temperature",
-      "Pressure",
       "Enthalpy",
+      "Pressure",
+      "Temperature",
       "Density"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Enthalpy depends on the amount of substance and is therefore extensive."
   },
   {
@@ -98,10 +98,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "Volume",
       "Internal energy",
-      "Temperature",
-      "Number of moles"
+      "Number of moles",
+      "Temperature"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Temperature does not depend on the amount of matter and is intensive."
   },
   {
@@ -126,12 +126,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A gas expands against a constant external pressure. The pressure–volume work w done on the system is:",
     "options": [
-      "positive",
+      "negative",
       "always equal to q",
       "zero",
-      "negative"
+      "positive"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "For expansion ΔV>0 and w=−PextΔV, so work done on the system is negative."
   },
   {
@@ -142,11 +142,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "Using the chemistry sign convention, the first law of thermodynamics is:",
     "options": [
       "ΔU = q − w",
-      "ΔU = −q − w",
+      "ΔU = q + w",
       "ΔU = w − q",
-      "ΔU = q + w"
+      "ΔU = −q − w"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "With w defined as work done on the system, energy conservation gives ΔU=q+w."
   },
   {
@@ -186,12 +186,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "After a system completes a thermodynamic cycle and returns to its initial state, its ΔU is:",
     "options": [
-      "positive",
+      "zero",
       "negative",
       "equal to total path length",
-      "zero"
+      "positive"
     ],
-    "answer": 3,
+    "answer": 0,
     "explanation": "Internal energy is a state function, and initial and final states are identical."
   },
   {
@@ -202,11 +202,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "At constant volume, when only pressure–volume work is possible, heat exchanged is equal to:",
     "options": [
       "ΔH",
-      "−ΔU",
       "ΔU",
+      "−ΔU",
       "ΔG"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "At constant volume ΔV=0, so PV work is zero and qᵥ=ΔU."
   },
   {
@@ -217,11 +217,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "At constant pressure and with only pressure–volume work, the heat exchanged equals:",
     "options": [
       "ΔU",
-      "ΔS",
       "ΔH",
+      "ΔS",
       "−ΔH"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "Under these conditions, qₚ=ΔH."
   },
   {
@@ -233,10 +233,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "ΔH = ΔU + 2RT",
       "ΔH = ΔU",
-      "ΔH = ΔU + 4RT",
-      "ΔH = ΔU − 2RT"
+      "ΔH = ΔU − 2RT",
+      "ΔH = ΔU + 4RT"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Δn(g)=2−4=−2. Therefore ΔH=ΔU+Δn(g)RT=ΔU−2RT."
   },
   {
@@ -247,11 +247,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "Two moles of a substance with molar heat capacity 25 J mol⁻¹ K⁻¹ are heated through 20 K without a phase change. Heat supplied is:",
     "options": [
       "250 J",
-      "500 J",
+      "1000 J",
       "2000 J",
-      "1000 J"
+      "500 J"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "q=nCₘΔT=2×25×20=1000 J."
   },
   {
@@ -262,11 +262,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "How much heat is required to raise the temperature of 100 g water by 5 K? Take specific heat = 4.2 J g⁻¹ K⁻¹.",
     "options": [
       "84 J",
-      "2100 J",
       "840 J",
+      "2100 J",
       "420 J"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "q=mcΔT=100×4.2×5=2100 J."
   },
   {
@@ -292,11 +292,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "A coffee-cup calorimeter open to the atmosphere most directly measures heat change at:",
     "options": [
       "constant volume",
-      "zero temperature",
+      "constant pressure",
       "constant entropy",
-      "constant pressure"
+      "zero temperature"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "The process occurs at nearly constant atmospheric pressure, so qₚ corresponds to enthalpy change."
   },
   {
@@ -306,12 +306,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "For an exothermic reaction at constant pressure:",
     "options": [
-      "ΔH < 0",
-      "ΔH > 0",
       "ΔH = 0",
+      "ΔH > 0",
+      "ΔH < 0",
       "ΔH must equal ΔU"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "An exothermic system releases heat, so its enthalpy decreases and ΔH is negative."
   },
   {
@@ -322,11 +322,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "In an endothermic reaction, the products generally lie:",
     "options": [
       "at lower enthalpy than reactants",
-      "at higher enthalpy than reactants",
+      "at zero enthalpy",
       "at the same enthalpy as reactants",
-      "at zero enthalpy"
+      "at higher enthalpy than reactants"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "An endothermic reaction absorbs heat and has ΔH>0, so product enthalpy exceeds reactant enthalpy."
   },
   {
@@ -338,10 +338,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "path function",
       "dimensionless quantity",
-      "vector quantity",
-      "state function"
+      "state function",
+      "vector quantity"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Since enthalpy change depends only on initial and final states, reaction steps can be algebraically added."
   },
   {
@@ -351,12 +351,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The standard enthalpy of formation of O₂(g) in its standard state is:",
     "options": [
-      "−1 kJ mol⁻¹",
-      "+1 kJ mol⁻¹",
       "0 kJ mol⁻¹",
+      "+1 kJ mol⁻¹",
+      "−1 kJ mol⁻¹",
       "temperature dependent but never zero"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The standard enthalpy of formation of an element in its most stable standard state is defined as zero."
   },
   {
@@ -368,10 +368,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "one mole of solid changes to gas",
       "one mole of any substance burns completely",
-      "one mole of a compound forms from its elements in their standard states",
-      "an acid and a base form one mole of salt"
+      "an acid and a base form one mole of salt",
+      "one mole of a compound forms from its elements in their standard states"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The definition specifies formation of exactly one mole of compound from constituent elements in their standard states."
   },
   {
@@ -381,12 +381,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The standard enthalpy of combustion of methane is −890 kJ mol⁻¹. Heat released by complete combustion of 0.50 mol CH₄ is:",
     "options": [
-      "445 kJ",
+      "1780 kJ",
       "222.5 kJ",
       "890 kJ",
-      "1780 kJ"
+      "445 kJ"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "For half a mole, enthalpy change is half of −890 kJ; the heat released has magnitude 445 kJ."
   },
   {
@@ -397,11 +397,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "Use the data below for CH₄(g)+2O₂(g)→CO₂(g)+2H₂O(l).<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Substance</th><th>ΔfH° (kJ mol⁻¹)</th></tr></thead><tbody><tr><td>CH₄(g)</td><td>−75</td></tr><tr><td>CO₂(g)</td><td>−394</td></tr><tr><td>H₂O(l)</td><td>−286</td></tr><tr><td>O₂(g)</td><td>0</td></tr></tbody></table></div>The reaction enthalpy is:",
     "options": [
       "−605 kJ mol⁻¹",
-      "−891 kJ mol⁻¹",
+      "+967 kJ mol⁻¹",
       "+891 kJ mol⁻¹",
-      "+967 kJ mol⁻¹"
+      "−891 kJ mol⁻¹"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "ΔrH°=ΣνΔfH°(products)−ΣνΔfH°(reactants)=[−394+2(−286)]−[−75]=−891 kJ mol⁻¹."
   },
   {
@@ -413,10 +413,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "−674 kJ mol⁻¹",
       "+183 kJ mol⁻¹",
-      "−183 kJ mol⁻¹",
-      "+862 kJ mol⁻¹"
+      "+862 kJ mol⁻¹",
+      "−183 kJ mol⁻¹"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "ΔH≈bonds broken−bonds formed=(436+243)−2(431)=−183 kJ mol⁻¹."
   },
   {
@@ -427,11 +427,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "Which change represents atomisation of carbon in its standard state?",
     "options": [
       "C(g) → C(graphite)",
-      "C(diamond) → C(graphite)",
+      "C(graphite) → C(g)",
       "CO₂(g) → C(graphite)+O₂(g)",
-      "C(graphite) → C(g)"
+      "C(diamond) → C(graphite)"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Atomisation forms one mole of gaseous atoms from the element in its standard state."
   },
   {
@@ -441,12 +441,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "For a substance below its critical temperature, the enthalpy change for sublimation (solid → gas) is normally:",
     "options": [
-      "positive",
-      "negative",
       "zero",
+      "negative",
+      "positive",
       "always smaller than fusion enthalpy"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Energy is absorbed to overcome intermolecular attractions in going directly from solid to gas."
   },
   {
@@ -457,11 +457,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "For the same pure substance at the same temperature, the usual order of molar entropy is:",
     "options": [
       "S(solid)>S(liquid)>S(gas)",
-      "S(gas)>S(liquid)>S(solid)",
+      "S(solid)=S(liquid)=S(gas)",
       "S(liquid)>S(gas)>S(solid)",
-      "S(solid)=S(liquid)=S(gas)"
+      "S(gas)>S(liquid)>S(solid)"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Freedom and number of accessible arrangements generally increase from solid to liquid to gas."
   },
   {
@@ -472,11 +472,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "Spontaneous mixing of two different ideal gases at the same temperature generally causes entropy to:",
     "options": [
       "become undefined",
-      "decrease",
+      "increase",
       "remain zero",
-      "increase"
+      "decrease"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Mixing increases the number of accessible arrangements, so entropy increases."
   },
   {
@@ -488,10 +488,10 @@ window.CHEMISTRY_QUESTIONS = [
     "options": [
       "negative",
       "zero only",
-      "equal to ΔH/T in every case",
-      "positive"
+      "positive",
+      "equal to ΔH/T in every case"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "The second-law criterion for spontaneous change is ΔS(universe)>0."
   },
   {
@@ -502,11 +502,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "For an ideal reversible phase transition occurring at equilibrium, ΔS(universe) is:",
     "options": [
       "less than zero",
-      "equal to zero",
+      "equal to ΔH of the system",
       "greater than zero",
-      "equal to ΔH of the system"
+      "equal to zero"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "A reversible equilibrium process produces no net entropy, so ΔS(system)+ΔS(surroundings)=0."
   },
   {
@@ -517,11 +517,11 @@ window.CHEMISTRY_QUESTIONS = [
     "question": "A system releases 20 kJ of heat to surroundings maintained at 300 K. The entropy change of the surroundings is approximately:",
     "options": [
       "−66.7 J K⁻¹",
-      "−0.067 J K⁻¹",
       "+66.7 J K⁻¹",
+      "−0.067 J K⁻¹",
       "+0.067 J K⁻¹"
     ],
-    "answer": 2,
+    "answer": 1,
     "explanation": "The surroundings receive +20000 J, so ΔS(surr)=q(surr)/T=20000/300≈+66.7 J K⁻¹."
   },
   {
@@ -531,12 +531,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The Gibbs energy change at constant temperature is given by:",
     "options": [
-      "ΔG=ΔH+TΔS",
       "ΔG=ΔH−TΔS",
+      "ΔG=ΔH+TΔS",
       "ΔG=TΔH−ΔS",
       "ΔG=ΔU+PΔV only"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The defining relation for a change at constant temperature is ΔG=ΔH−TΔS."
   },
   {
@@ -561,12 +561,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "At equilibrium under constant temperature and pressure:",
     "options": [
-      "ΔG=0",
-      "ΔG>0",
       "ΔG<0",
+      "ΔG>0",
+      "ΔG=0",
       "ΔS(system)=0 necessarily"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "At equilibrium there is no driving force for net change, so ΔG=0."
   },
   {
@@ -606,12 +606,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A reaction with ΔH<0 and ΔS<0 is generally spontaneous:",
     "options": [
-      "at low temperature",
-      "at high temperature",
       "at all temperatures",
+      "at high temperature",
+      "at low temperature",
       "at no temperature"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "At low T the favorable negative ΔH can dominate; at high T the positive contribution −TΔS opposes spontaneity."
   },
   {
@@ -621,12 +621,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "For a reaction at a specified temperature, K>1. From ΔG°=−RT lnK, one can conclude that:",
     "options": [
-      "ΔG° is negative",
       "ΔG° is positive",
+      "ΔG° is negative",
       "ΔG° is zero",
       "ΔG° equals K"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "K>1 makes lnK positive, hence −RTlnK is negative."
   },
   {
@@ -651,12 +651,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Between the same initial and final states, isothermal reversible expansion of an ideal gas gives:",
     "options": [
-      "minimum magnitude of expansion work",
       "maximum magnitude of expansion work",
+      "minimum magnitude of expansion work",
       "zero work",
       "work independent of path"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "A reversible expansion proceeds against the greatest possible opposing pressure at every stage and yields maximum work magnitude."
   },
   {
@@ -666,12 +666,12 @@ window.CHEMISTRY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "A gas undergoes the three processes listed below using the chemistry sign convention.<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Process</th><th>q (kJ)</th><th>w (kJ)</th></tr></thead><tbody><tr><td>A</td><td>+30</td><td>−10</td></tr><tr><td>B</td><td>−5</td><td>+15</td></tr><tr><td>C</td><td>0</td><td>−8</td></tr></tbody></table></div>Which set of ΔU values (A, B, C) is correct?",
     "options": [
-      "+20, +10, −8 kJ",
-      "+40, −20, +8 kJ",
       "+20, −20, −8 kJ",
+      "+40, −20, +8 kJ",
+      "+20, +10, −8 kJ",
       "−20, +10, +8 kJ"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Apply ΔU=q+w: A=30−10=+20 kJ, B=−5+15=+10 kJ, and C=0−8=−8 kJ."
   }
 ];
