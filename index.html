@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#073b4c">
+  <meta name="description" content="Scrutiny Academy Unit Test 3 — a personalised 180-question NEET 2028 mock test for Sanvi Mantri.">
+  <title>Sanvi's NEET Unit Test 3 | Scrutiny Academy</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="medical-pattern" aria-hidden="true">
+    <span class="pattern-icon p1">✚</span><span class="pattern-icon p2">💊</span>
+    <span class="pattern-icon p3">⚕</span><span class="pattern-icon p4">🩺</span>
+    <span class="pattern-icon p5">✚</span><span class="pattern-icon p6">💉</span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Scrutiny Academy home">
+      <img src="assets/logo.svg" alt="Scrutiny Academy logo" width="58" height="58">
+      <span><strong>Scrutiny Academy</strong><small>Doctor in the making series</small></span>
+    </a>
+    <div class="header-chip"><span class="live-dot"></span> Unit Test 3 • NEET 2028</div>
+  </header>
+
+  <main>
+    <section id="welcomeScreen" class="screen welcome-screen">
+      <div class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow">PERSONALISED FOR SANVI MANTRI</div>
+          <h1>Your next white-coat milestone starts here.</h1>
+          <p class="hero-lead">A focused NEET Unit Test built to turn today's practice into tomorrow's confidence.</p>
+          <div class="mentor-note">
+            <div class="note-icon">🩺</div>
+            <div>
+              <strong>A note from the Scrutiny Academy Team</strong>
+              <p>All the best, Sanvi — you're one step closer to becoming a doctor. Stay calm, trust your preparation and give every question your honest best.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Medical exam summary">
+          <div class="pulse-ring ring-one"></div><div class="pulse-ring ring-two"></div>
+          <div class="doctor-card">
+            <img src="assets/logo.svg" alt="" width="104" height="104">
+            <div class="white-coat-mark">⚕</div>
+            <h2>UNIT TEST 3</h2>
+            <p>NEET 2028 • Sanvi Mantri</p>
+            <div class="exam-stat-row">
+              <span><b>180</b> MCQs</span><span><b>720</b> Marks</span><span><b>3:00</b> Hours</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="warning-card">
+        <div class="warning-symbol">!</div>
+        <div>
+          <h2>One-attempt examination</h2>
+          <p>Once you start, this attempt is locked to this browser and cannot be restarted. The 3-hour timer continues even if the page is refreshed or closed. Start only when you have uninterrupted time, a stable device and everything you need.</p>
+        </div>
+      </div>
+
+      <div class="section-heading">
+        <div><span class="eyebrow">TEST BLUEPRINT</span><h2>Four subjects. One focused challenge.</h2></div>
+        <span class="marking-pill">+4 correct &nbsp; • &nbsp; −1 incorrect &nbsp; • &nbsp; 0 unattempted</span>
+      </div>
+
+      <div class="syllabus-grid">
+        <article class="syllabus-card physics-card">
+          <div class="subject-icon">⚙</div><div><span>Physics • 45 MCQs</span><h3>Laws of Motion & Work, Energy and Power</h3><p>Friction through the end of Laws of Motion; Work, Energy & Power through Power.</p></div>
+        </article>
+        <article class="syllabus-card chemistry-card">
+          <div class="subject-icon">⚗</div><div><span>Chemistry • 45 MCQs</span><h3>Thermodynamics</h3><p>System and surroundings, energy, enthalpy, calorimetry, Hess's law, entropy and Gibbs energy.</p></div>
+        </article>
+        <article class="syllabus-card botany-card">
+          <div class="subject-icon">❧</div><div><span>Botany • 45 MCQs</span><h3>Plant Families & Anatomy</h3><p>Morphology: Fabaceae, Solanaceae and Liliaceae; complete Anatomy of Flowering Plants.</p></div>
+        </article>
+        <article class="syllabus-card zoology-card">
+          <div class="subject-icon">🐸</div><div><span>Zoology • 45 MCQs</span><h3>Structural Organisation: Frog</h3><p>External features and the complete organ-system organisation of frog.</p></div>
+        </article>
+      </div>
+
+      <div class="instructions-card">
+        <div class="instructions-copy">
+          <span class="eyebrow">BEFORE YOU BEGIN</span>
+          <h2>Exam instructions</h2>
+          <ol>
+            <li>You have exactly <strong>3 hours</strong>. The timer auto-submits at 00:00:00.</li>
+            <li>You may submit early. A confirmation screen will show answered and unanswered counts.</li>
+            <li>Use <strong>Mark for Review</strong> to flag questions. Your selected response remains saved.</li>
+            <li>Your progress is saved on this device. Refreshing does not restart the exam or timer.</li>
+            <li>After submission, you will receive score, section analysis and a savable incorrect-question revision list.</li>
+          </ol>
+        </div>
+        <div class="start-panel">
+          <div class="mini-timer">03<span>h</span> 00<span>m</span></div>
+          <label class="consent">
+            <input type="checkbox" id="attemptConsent">
+            <span>I understand this test allows only one attempt and I am ready to begin.</span>
+          </label>
+          <button id="startExamBtn" class="btn btn-primary btn-large" disabled>
+            Start my examination <span>→</span>
+          </button>
+          <p class="privacy-note">Your responses stay in this browser. No sign-in is required.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="examScreen" class="screen exam-screen hidden" aria-label="Examination">
+      <div class="exam-mobile-bar">
+        <div><small>Time remaining</small><strong id="mobileTimer">03:00:00</strong></div>
+        <button class="btn btn-danger btn-compact" data-open-submit>Submit</button>
+      </div>
+      <div class="exam-layout">
+        <div class="question-column">
+          <div class="question-toolbar">
+            <div>
+              <span id="subjectBadge" class="subject-badge">Physics</span>
+              <span id="questionCounter" class="question-counter">Question 1 of 180</span>
+            </div>
+            <div class="question-meta"><span id="topicLabel">Topic</span><span id="difficultyLabel">Easy</span><span>+4 / −1</span></div>
+          </div>
+          <article class="question-card">
+            <div class="question-number-row">
+              <span id="questionNumber" class="question-number">01</span>
+              <span id="savedIndicator" class="saved-indicator" aria-live="polite">Response auto-saved</span>
+            </div>
+            <div id="questionText" class="question-text"></div>
+            <div id="optionsList" class="options-list" role="radiogroup" aria-label="Answer choices"></div>
+          </article>
+          <div class="question-actions">
+            <button id="prevBtn" class="btn btn-secondary">← Previous</button>
+            <button id="reviewBtn" class="btn btn-review">☆ Mark for review</button>
+            <button id="clearBtn" class="btn btn-ghost">Clear response</button>
+            <button id="nextBtn" class="btn btn-primary">Save & next →</button>
+          </div>
+          <p class="keyboard-hint">Keyboard: 1–4 select • ←/→ navigate • M mark for review</p>
+        </div>
+
+        <aside class="exam-sidebar">
+          <div class="timer-card">
+            <span>TIME REMAINING</span>
+            <strong id="desktopTimer">03:00:00</strong>
+            <div class="timer-progress"><span id="timerProgress"></span></div>
+            <small>The clock continues if this page closes.</small>
+          </div>
+          <div class="progress-card">
+            <div class="progress-title"><span>Your progress</span><strong id="progressPercent">0%</strong></div>
+            <div class="progress-track"><span id="answerProgress"></span></div>
+            <div class="status-counts">
+              <div><b id="answeredCount">0</b><span>Answered</span></div>
+              <div><b id="reviewCount">0</b><span>Review</span></div>
+              <div><b id="unansweredCount">180</b><span>Unanswered</span></div>
+            </div>
+          </div>
+          <div id="sectionTabs" class="section-tabs" role="tablist" aria-label="Question sections"></div>
+          <div class="palette-card">
+            <div class="palette-heading"><span>Question palette</span><small id="paletteRange">1–45</small></div>
+            <div id="questionPalette" class="question-palette"></div>
+            <div class="palette-legend">
+              <span><i class="legend-dot current"></i>Current</span>
+              <span><i class="legend-dot answered"></i>Answered</span>
+              <span><i class="legend-dot review"></i>Review</span>
+              <span><i class="legend-dot untouched"></i>Not answered</span>
+            </div>
+          </div>
+          <button class="btn btn-danger btn-full" data-open-submit>Submit examination</button>
+        </aside>
+      </div>
+    </section>
+
+    <section id="resultScreen" class="screen result-screen hidden" aria-label="Examination result">
+      <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+      <div class="result-hero">
+        <div class="result-copy">
+          <span class="eyebrow">UNIT TEST 3 • COMPLETED</span>
+          <h1 id="resultHeadline">Well done, Sanvi!</h1>
+          <p id="resultStory"></p>
+          <div class="result-actions">
+            <a id="whatsappShare" class="btn btn-whatsapp" target="_blank" rel="noopener">Send result to Scrutiny Academy</a>
+            <button id="nativeShareBtn" class="btn btn-primary">Share my score</button>
+            <button id="printBtn" class="btn btn-secondary">Print / Save PDF</button>
+          </div>
+        </div>
+        <div class="score-orbit">
+          <div id="scoreGauge" class="score-gauge">
+            <div><strong id="finalScore">0</strong><span>/ 720</span></div>
+          </div>
+          <div id="performanceLabel" class="performance-label">Keep growing</div>
+        </div>
+      </div>
+
+      <div class="result-metrics">
+        <article><span class="metric-icon correct-icon">✓</span><div><strong id="finalCorrect">0</strong><span>Correct</span></div></article>
+        <article><span class="metric-icon wrong-icon">×</span><div><strong id="finalIncorrect">0</strong><span>Incorrect</span></div></article>
+        <article><span class="metric-icon empty-icon">–</span><div><strong id="finalUnattempted">0</strong><span>Unattempted</span></div></article>
+        <article><span class="metric-icon accuracy-icon">◎</span><div><strong id="finalAccuracy">0%</strong><span>Accuracy</span></div></article>
+        <article><span class="metric-icon time-icon">◷</span><div><strong id="finalTime">0m</strong><span>Time used</span></div></article>
+      </div>
+
+      <div class="analysis-grid">
+        <article class="analysis-panel">
+          <div class="panel-heading"><div><span class="eyebrow">SUBJECT-WISE</span><h2>Performance analysis</h2></div></div>
+          <div class="table-scroll">
+            <table class="analysis-table">
+              <thead><tr><th>Subject</th><th>Score</th><th>Correct</th><th>Incorrect</th><th>Unattempted</th><th>Accuracy</th></tr></thead>
+              <tbody id="sectionAnalysisBody"></tbody>
+            </table>
+          </div>
+        </article>
+        <article class="scoreboard-panel">
+          <div class="panel-heading"><div><span class="eyebrow">PERSONAL SCOREBOARD</span><h2>Sanvi's result</h2></div><span class="trophy">🏆</span></div>
+          <div class="scoreboard-row">
+            <span class="rank-medal">1</span>
+            <img src="assets/logo.svg" alt="" width="46" height="46">
+            <div><strong>Sanvi Mantri</strong><small>NEET 2028 Aspirant</small></div>
+            <div class="scoreboard-score"><strong id="boardScore">0</strong><small>/720</small></div>
+          </div>
+          <div class="scoreboard-footer"><span id="completedDate"></span><b id="boardStatus">Completed</b></div>
+        </article>
+      </div>
+
+      <article class="revision-panel">
+        <div class="revision-header">
+          <div><span class="eyebrow">REVISION CENTRE</span><h2>Question-by-question analysis</h2><p>Review every response, understand the correction and save your mistake list for revision.</p></div>
+          <div class="revision-actions">
+            <button id="downloadIncorrectBtn" class="btn btn-review">Download incorrect MCQs</button>
+          </div>
+        </div>
+        <div id="reviewFilters" class="review-filters" role="tablist">
+          <button class="active" data-filter="incorrect">Incorrect <span id="incorrectFilterCount">0</span></button>
+          <button data-filter="all">All <span>180</span></button>
+          <button data-filter="correct">Correct <span id="correctFilterCount">0</span></button>
+          <button data-filter="unattempted">Unattempted <span id="unattemptedFilterCount">0</span></button>
+          <button data-filter="marked">Marked <span id="markedFilterCount">0</span></button>
+        </div>
+        <div id="reviewList" class="review-list"></div>
+      </article>
+
+      <div class="closing-note">
+        <div class="closing-symbol">🩺</div>
+        <div><span class="eyebrow">FROM YOUR SCRUTINY ACADEMY TEAM</span><h2>One test does not define you. What you revise next will shape you.</h2><p>Every corrected mistake is one question less between you and your white coat. Keep showing up, Sanvi.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.svg" alt="" width="40" height="40">
+    <div><strong>Exam designed by Scrutiny Academy Team</strong><small>Personalised NEET 2028 Unit Test 3 for Sanvi Mantri</small></div>
+    <span>© 2026 Scrutiny Academy</span>
+  </footer>
+
+  <div id="startModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="startModalTitle">
+    <div class="modal">
+      <div class="modal-icon">🩺</div>
+      <h2 id="startModalTitle">Ready, Sanvi?</h2>
+      <p>After you start, the attempt is permanently locked on this browser and the 3-hour clock cannot be paused or reset.</p>
+      <div class="modal-summary"><span>180 questions</span><span>720 marks</span><span>3 hours</span></div>
+      <div class="modal-actions"><button class="btn btn-secondary" data-close-modal>Not yet</button><button id="confirmStartBtn" class="btn btn-primary">Yes, begin now</button></div>
+    </div>
+  </div>
+
+  <div id="submitModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="submitModalTitle">
+    <div class="modal">
+      <div class="modal-icon submit-modal-icon">✓</div>
+      <h2 id="submitModalTitle">Submit your examination?</h2>
+      <p id="submitSummary">Please review your progress before final submission.</p>
+      <div class="modal-summary"><span><b id="modalAnswered">0</b> answered</span><span><b id="modalUnanswered">180</b> unanswered</span><span><b id="modalMarked">0</b> marked</span></div>
+      <p class="irreversible-note">Submission is final. You will not be able to change any response afterward.</p>
+      <div class="modal-actions"><button class="btn btn-secondary" data-close-modal>Continue test</button><button id="confirmSubmitBtn" class="btn btn-danger">Submit & see result</button></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">JavaScript is required to take this examination. Please enable it and reload.</div></noscript>
+
+  <script src="data/physics.js"></script>
+  <script src="data/chemistry.js"></script>
+  <script src="data/botany.js"></script>
+  <script src="data/zoology.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

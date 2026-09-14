@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Scrutiny Academy logo</title><desc id="desc">SA monogram and Scrutiny Academy wordmark on a light blue circle</desc>
+<circle cx="256" cy="256" r="246" fill="#b9e3f7"/>
+<text x="256" y="267" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="183" font-weight="400" letter-spacing="-22" fill="#050505">SA</text>
+<text x="256" y="342" text-anchor="middle" font-family="'Brush Script MT','Segoe Script','Snell Roundhand',cursive" font-size="50" font-style="italic" textLength="410" lengthAdjust="spacingAndGlyphs" fill="#111">Scrutiny academy</text>
+</svg>
