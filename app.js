@@ -61,7 +61,7 @@
     ["welcomeScreen", "examScreen", "resultScreen"].forEach((id) => {
       $("#" + id).classList.toggle("hidden", id !== screenId);
     });
-    window.scrollTo({ top: 0, behavior: "instant" });
+    window.scrollTo({ top: 0, behavior: "auto" });
   }
 
   function openModal(id) {
