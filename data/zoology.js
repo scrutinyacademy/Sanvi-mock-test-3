@@ -6,12 +6,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The common frog is described as amphibious because it:",
     "options": [
-      "lives only in deep water",
       "can live both on land and in fresh water",
+      "lives only in deep water",
       "flies between ponds",
       "has gills throughout adult life"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Adult frogs spend time on land as well as in fresh water, showing an amphibious mode of life."
   },
   {
@@ -52,11 +52,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Frogs normally absorb water primarily through:",
     "options": [
       "the mouth while drinking",
-      "the skin",
+      "the tympanum",
       "the lungs",
-      "the tympanum"
+      "the skin"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Frogs generally do not drink water; water is absorbed across their permeable skin."
   },
   {
@@ -67,11 +67,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "The darker dorsal colour and lighter ventral surface of a frog mainly aid in:",
     "options": [
       "digestion",
-      "camouflage",
+      "sound production",
       "excretion",
-      "sound production"
+      "camouflage"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Dorsal colour patterns help the frog blend with its surroundings, reducing detection by predators and prey."
   },
   {
@@ -81,12 +81,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The summer sleep and winter sleep of frogs are respectively called:",
     "options": [
-      "hibernation and aestivation",
       "aestivation and hibernation",
+      "hibernation and aestivation",
       "metamorphosis and moulting",
       "diapause and migration"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Aestivation occurs during unfavourable hot/dry periods, whereas hibernation occurs during winter."
   },
   {
@@ -97,11 +97,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "The transparent membrane that protects a frog's eye in water is the:",
     "options": [
       "tympanum",
-      "nictitating membrane",
+      "cornea",
       "iris",
-      "cornea"
+      "nictitating membrane"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "The nictitating membrane can cover the eye and protect it, especially while swimming."
   },
   {
@@ -111,12 +111,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The circular tympanum visible behind each eye represents the:",
     "options": [
-      "external nostril",
       "eardrum",
+      "external nostril",
       "vocal sac",
       "poison gland"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The tympanum receives sound vibrations and transmits them to the internal ear."
   },
   {
@@ -142,11 +142,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "A male frog can commonly be distinguished from a female by the presence of:",
     "options": [
       "a cloaca",
-      "paired vocal sacs and copulatory pads",
       "webbed hind feet only",
+      "paired vocal sacs and copulatory pads",
       "two eyes and a tympanum"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Male frogs characteristically possess vocal sacs and a copulatory or nuptial pad on the first digit of each forelimb."
   },
   {
@@ -157,11 +157,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Which comparison is correct?<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Character</th><th>Male frog</th><th>Female frog</th></tr></thead><tbody><tr><td>I</td><td>Vocal sacs present</td><td>Vocal sacs absent</td></tr><tr><td>II</td><td>Copulatory pad present</td><td>Copulatory pad absent</td></tr><tr><td>III</td><td>Generally smaller</td><td>Generally larger</td></tr></tbody></table></div>",
     "options": [
       "I only",
-      "I and II only",
+      "I, II and III",
       "II and III only",
-      "I, II and III"
+      "I and II only"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "All three are commonly used external features for sexual dimorphism in frogs."
   },
   {
@@ -173,10 +173,10 @@ window.ZOOLOGY_QUESTIONS = [
     "options": [
       "pharynx",
       "duodenum",
-      "cloaca",
-      "rectum"
+      "rectum",
+      "cloaca"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "The cloaca receives material from the digestive, excretory and reproductive systems and opens outside through the cloacal aperture."
   },
   {
@@ -187,11 +187,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Teeth in a frog are primarily used to:",
     "options": [
       "chew food thoroughly",
-      "hold captured prey",
       "grind plant fibre",
+      "hold captured prey",
       "inject venom"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Frog teeth are small and suited for gripping prey; the prey is generally swallowed without chewing."
   },
   {
@@ -201,12 +201,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The frog's tongue is attached at its anterior end and is free and bifid posteriorly. This arrangement helps it to:",
     "options": [
-      "pump blood",
       "capture prey rapidly",
+      "pump blood",
       "filter water",
       "produce urine"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The free posterior part can be flipped out quickly; its sticky surface catches insects and other small prey."
   },
   {
@@ -232,11 +232,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "The bile-producing organ in a frog is the:",
     "options": [
       "pancreas",
-      "liver",
       "stomach",
+      "liver",
       "spleen"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The three-lobed liver produces bile, which is stored in the gall bladder."
   },
   {
@@ -246,12 +246,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The pancreas of a frog lies mainly:",
     "options": [
-      "inside the heart",
       "between the stomach and duodenum",
+      "inside the heart",
       "within the urinary bladder",
       "on the dorsal surface of the brain"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The irregular pancreas is situated in the mesentery between the stomach and duodenum and secretes digestive enzymes."
   },
   {
@@ -262,11 +262,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Protein digestion in a frog begins mainly in the:",
     "options": [
       "mouth",
-      "stomach",
+      "cloaca",
       "large intestine",
-      "cloaca"
+      "stomach"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Gastric juice containing hydrochloric acid and pepsin begins protein digestion in the stomach."
   },
   {
@@ -277,11 +277,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Most absorption of digested nutrients in a frog occurs through the inner lining of the:",
     "options": [
       "oesophagus",
-      "small intestine",
       "rectum",
+      "small intestine",
       "cloaca"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "The small intestine is the major site for completion of digestion and absorption into blood and lymph."
   },
   {
@@ -291,12 +291,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A frog submerged in water respires mainly through its:",
     "options": [
-      "lungs",
       "moist skin",
+      "lungs",
       "buccal cavity only",
       "external gills"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Adult frogs use cutaneous respiration in water; gases diffuse through the richly vascular, moist skin."
   },
   {
@@ -306,12 +306,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "On land, an adult frog may exchange gases through:",
     "options": [
-      "lungs, skin and buccopharyngeal lining",
-      "gills only",
       "tracheae and spiracles",
+      "gills only",
+      "lungs, skin and buccopharyngeal lining",
       "book lungs and skin"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Pulmonary, cutaneous and buccopharyngeal respiration can all contribute while the frog is on land."
   },
   {
@@ -321,12 +321,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "During hibernation, gaseous exchange in a frog occurs chiefly by:",
     "options": [
-      "pulmonary respiration",
       "cutaneous respiration",
+      "pulmonary respiration",
       "branchial respiration",
       "tracheal respiration"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "During dormancy the frog relies mainly on diffusion across its moist, vascular skin."
   },
   {
@@ -337,11 +337,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "The frog has a:",
     "options": [
       "two-chambered heart",
-      "three-chambered heart",
+      "single-chambered heart",
       "four-chambered heart",
-      "single-chambered heart"
+      "three-chambered heart"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Its heart consists of two atria and one ventricle, in addition to associated sinus venosus and truncus arteriosus."
   },
   {
@@ -351,12 +351,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Oxygenated blood from the lungs and skin enters the:",
     "options": [
-      "right atrium",
       "left atrium",
+      "right atrium",
       "ventricle directly",
       "sinus venosus"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Pulmonary veins return oxygenated blood to the left atrium."
   },
   {
@@ -366,12 +366,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The sinus venosus opens into the:",
     "options": [
-      "left atrium",
       "right atrium",
+      "left atrium",
       "ventricle",
       "truncus arteriosus"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Systemic venous blood collects in the sinus venosus, which opens into the right atrium."
   },
   {
@@ -381,12 +381,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The chamber from which the truncus arteriosus arises is the:",
     "options": [
-      "right atrium",
-      "left atrium",
       "ventricle",
+      "left atrium",
+      "right atrium",
       "sinus venosus"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The single ventricle pumps blood into the anterior truncus arteriosus for distribution."
   },
   {
@@ -412,11 +412,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Circulation in a frog is called incomplete double circulation because:",
     "options": [
       "blood passes through the heart once and never mixes",
-      "blood passes through the heart twice, with some mixing in the single ventricle",
+      "only lymph circulates twice",
       "the heart has four completely separated chambers",
-      "only lymph circulates twice"
+      "blood passes through the heart twice, with some mixing in the single ventricle"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Pulmocutaneous and systemic circuits cause double passage, but the undivided ventricle allows limited mixing."
   },
   {
@@ -441,12 +441,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Frog lymph differs from blood mainly because lymph:",
     "options": [
-      "has abundant erythrocytes",
       "lacks red blood cells and contains lymphocytes",
+      "has abundant erythrocytes",
       "contains no water",
       "flows only inside arteries"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Lymph is a colourless fluid containing lymphocytes but normally no erythrocytes."
   },
   {
@@ -457,11 +457,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "The chief nitrogenous waste excreted by an adult frog is:",
     "options": [
       "ammonia",
-      "urea",
       "uric acid",
+      "urea",
       "creatinine only"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Adult frogs are ureotelic and eliminate nitrogen mainly as urea."
   },
   {
@@ -502,11 +502,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "In a male frog, the ureters also function as:",
     "options": [
       "oviducts",
-      "urinogenital ducts",
+      "hepatic portal veins",
       "bile ducts",
-      "hepatic portal veins"
+      "urinogenital ducts"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Male ureters carry both urine and sperm and are therefore called urinogenital ducts."
   },
   {
@@ -516,12 +516,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Which statement about a female frog is correct?",
     "options": [
-      "The ureters carry both ova and urine",
       "Oviducts and ureters open separately into the cloaca",
+      "The ureters carry both ova and urine",
       "Ovaries are directly connected to kidneys by vasa efferentia",
       "The urinary bladder is absent"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "In females, ureters convey urine and the paired oviducts convey ova; they have separate openings into the cloaca."
   },
   {
@@ -531,12 +531,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The frog's central nervous system consists of the:",
     "options": [
-      "brain and spinal cord",
+      "brain and sense organs only",
       "cranial nerves only",
       "sympathetic chains only",
-      "brain and sense organs only"
+      "brain and spinal cord"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The CNS includes brain and spinal cord; cranial and spinal nerves form the peripheral nervous system."
   },
   {
@@ -546,12 +546,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The brain of a frog is divided into:",
     "options": [
-      "forebrain, midbrain and hindbrain",
-      "cerebrum and spinal cord only",
       "thorax, abdomen and pelvis",
+      "cerebrum and spinal cord only",
+      "forebrain, midbrain and hindbrain",
       "sympathetic and parasympathetic lobes"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "As in other vertebrates, the frog brain has forebrain, midbrain and hindbrain regions."
   },
   {
@@ -562,11 +562,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "The number of pairs of cranial nerves in a frog is:",
     "options": [
       "8",
-      "10",
       "12",
+      "10",
       "31"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Ten pairs of cranial nerves arise from the frog brain."
   },
   {
@@ -576,12 +576,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Which structure is involved in hearing and equilibrium in a frog?",
     "options": [
-      "Internal ear",
       "Nictitating membrane",
+      "Internal ear",
       "Vocal sac",
       "Copulatory pad"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "The ear includes the tympanum and internal ear; the latter contains receptors related to hearing and balance."
   },
   {
@@ -591,12 +591,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The testes of a male frog are attached near the kidneys by a fold called:",
     "options": [
-      "mesorchium",
       "mesovarium",
+      "mesorchium",
       "mesentery",
       "pericardium"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Each yellowish ovoid testis is attached to the upper part of a kidney by the mesorchium."
   },
   {
@@ -621,12 +621,12 @@ window.ZOOLOGY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The funnel-shaped opening of each frog oviduct is located:",
     "options": [
-      "near the ovary in the body cavity",
+      "at the tip of the tongue",
       "inside the testis",
       "within the urinary bladder",
-      "at the tip of the tongue"
+      "near the ovary in the body cavity"
     ],
-    "answer": 0,
+    "answer": 3,
     "explanation": "The oviduct is not directly joined to the ovary; its anterior ciliated funnel receives ova released into the coelom."
   },
   {
@@ -637,11 +637,11 @@ window.ZOOLOGY_QUESTIONS = [
     "question": "Fertilisation in frogs is generally:",
     "options": [
       "internal in the uterus",
-      "external in water",
       "internal in the cloaca",
+      "external in water",
       "absent because development is direct"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "During spawning, eggs and sperm are released into water, where external fertilisation occurs."
   },
   {

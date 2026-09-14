@@ -6,12 +6,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A flower is zygomorphic and papilionaceous, with ten stamens usually arranged as (9)+1. It belongs to:",
     "options": [
-      "Solanaceae",
       "Fabaceae",
+      "Solanaceae",
       "Liliaceae",
       "Brassicaceae"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Papilionaceous corolla and diadelphous (9)+1 stamens are characteristic features of Fabaceae."
   },
   {
@@ -36,12 +36,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "The typical androecium of pea is:",
     "options": [
-      "5 epipetalous stamens",
-      "6 epiphyllous stamens",
       "10 diadelphous stamens (9)+1",
+      "6 epiphyllous stamens",
+      "5 epipetalous stamens",
       "numerous monadelphous stamens"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "Pea shows ten stamens, with nine united and one free, described as diadelphous (9)+1."
   },
   {
@@ -52,11 +52,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The Fabaceae gynoecium is usually:",
     "options": [
       "bicarpellary, syncarpous with axile placentation",
-      "monocarpellary with a superior ovary and marginal placentation",
+      "monocarpellary with basal placentation and inferior ovary",
       "tricarpellary with an inferior ovary",
-      "monocarpellary with basal placentation and inferior ovary"
+      "monocarpellary with a superior ovary and marginal placentation"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Fabaceae has a single carpel, superior unilocular ovary and ovules arranged along the marginal placenta."
   },
   {
@@ -66,12 +66,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Which fruit–seed combination is typical of Fabaceae?",
     "options": [
-      "Berry; endospermic seeds",
-      "Capsule; winged seeds",
       "Legume; generally non-endospermic seeds",
+      "Capsule; winged seeds",
+      "Berry; endospermic seeds",
       "Drupe; one endospermic seed"
     ],
-    "answer": 2,
+    "answer": 0,
     "explanation": "The characteristic fruit is a legume, and mature seeds are commonly non-endospermic."
   },
   {
@@ -81,12 +81,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "A typical Solanaceae flower is:",
     "options": [
-      "zygomorphic, unisexual and trimerous",
       "actinomorphic, bisexual and pentamerous",
+      "zygomorphic, unisexual and trimerous",
       "actinomorphic, unisexual and tetramerous",
       "zygomorphic, bisexual and trimerous"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Solanaceae flowers are generally radially symmetric, bisexual and five-merous."
   },
   {
@@ -97,11 +97,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The five stamens of Solanaceae are usually:",
     "options": [
       "free and opposite the petals",
-      "epipetalous and alternating with petals",
+      "diadelphous and ten in number",
       "epiphyllous and three in number",
-      "diadelphous and ten in number"
+      "epipetalous and alternating with petals"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Solanaceae has five stamens attached to the corolla tube (epipetalous) and alternating with petals."
   },
   {
@@ -111,12 +111,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The ovary in Solanaceae is typically:",
     "options": [
-      "superior, bicarpellary, syncarpous with axile placentation",
-      "inferior, tricarpellary with parietal placentation",
       "superior, monocarpellary with marginal placentation",
+      "inferior, tricarpellary with parietal placentation",
+      "superior, bicarpellary, syncarpous with axile placentation",
       "half-inferior and unilocular with basal placentation"
     ],
-    "answer": 0,
+    "answer": 2,
     "explanation": "Two fused carpels form a superior, usually bilocular ovary with swollen axile placenta."
   },
   {
@@ -127,11 +127,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Which pair correctly represents common fruit types in Solanaceae?",
     "options": [
       "Legume and lomentum",
-      "Berry and capsule",
       "Caryopsis and achene",
+      "Berry and capsule",
       "Drupe and samara"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Tomato and brinjal produce berries, while plants such as Datura may produce capsules."
   },
   {
@@ -141,12 +141,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Study the comparison table.<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Feature</th><th>Family X</th></tr></thead><tbody><tr><td>Symmetry</td><td>Actinomorphic</td></tr><tr><td>Stamens</td><td>5, epipetalous</td></tr><tr><td>Ovary</td><td>Superior, bicarpellary</td></tr><tr><td>Fruit</td><td>Berry or capsule</td></tr></tbody></table></div>Family X is:",
     "options": [
-      "Fabaceae",
       "Solanaceae",
+      "Fabaceae",
       "Liliaceae",
       "Poaceae"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "The combined characters—five epipetalous stamens, bicarpellary superior ovary, berry/capsule—identify Solanaceae."
   },
   {
@@ -172,11 +172,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The androecium of a typical Liliaceae flower consists of:",
     "options": [
       "5 epipetalous stamens",
-      "6 epiphyllous stamens",
       "10 diadelphous stamens",
+      "6 epiphyllous stamens",
       "numerous free stamens"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Six stamens occur in two whorls and are attached to tepals, hence epiphyllous."
   },
   {
@@ -187,11 +187,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The gynoecium of Liliaceae is generally:",
     "options": [
       "monocarpellary, unilocular and inferior",
-      "tricarpellary, syncarpous, trilocular and superior",
       "bicarpellary, syncarpous and inferior",
+      "tricarpellary, syncarpous, trilocular and superior",
       "five-carpellary with marginal placentation"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Three fused carpels form a superior, trilocular ovary with axile placentation."
   },
   {
@@ -202,11 +202,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Which vegetative combination commonly occurs in Liliaceae?",
     "options": [
       "Tap root and reticulate venation",
-      "Fibrous root and parallel venation",
+      "Pneumatophores and net venation",
       "Prop roots and dichotomous venation",
-      "Pneumatophores and net venation"
+      "Fibrous root and parallel venation"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "As a monocot family, Liliaceae commonly has fibrous roots and leaves with parallel venation."
   },
   {
@@ -216,12 +216,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Which row is entirely correct?<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Option</th><th>Family</th><th>Androecium</th><th>Placentation</th><th>Typical seed</th></tr></thead><tbody><tr><td>A</td><td>Fabaceae</td><td>10, (9)+1</td><td>Marginal</td><td>Non-endospermic</td></tr><tr><td>B</td><td>Solanaceae</td><td>6, epiphyllous</td><td>Marginal</td><td>Non-endospermic</td></tr><tr><td>C</td><td>Liliaceae</td><td>5, epipetalous</td><td>Parietal</td><td>Non-endospermic</td></tr><tr><td>D</td><td>Fabaceae</td><td>5, epipetalous</td><td>Axile</td><td>Endospermic</td></tr></tbody></table></div>",
     "options": [
-      "Row A",
       "Row B",
+      "Row A",
       "Row C",
       "Row D"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Fabaceae characteristically shows ten diadelphous (9)+1 stamens, marginal placentation and generally non-endospermic seeds."
   },
   {
@@ -232,11 +232,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Meristematic cells generally possess:",
     "options": [
       "thick lignified walls and large intercellular spaces",
-      "dense cytoplasm, prominent nuclei and active division",
       "large vacuoles and no nuclei",
+      "dense cytoplasm, prominent nuclei and active division",
       "dead protoplasts and suberised walls"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Young meristematic cells actively divide and characteristically have dense cytoplasm, prominent nuclei and little or no vacuolation."
   },
   {
@@ -248,10 +248,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "apical meristem",
       "intercalary meristem",
-      "lateral meristem",
-      "protoderm"
+      "protoderm",
+      "lateral meristem"
     ],
-    "answer": 2,
+    "answer": 3,
     "explanation": "Vascular cambium and cork cambium are lateral meristems that bring about secondary growth in thickness."
   },
   {
@@ -276,12 +276,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Easy",
     "question": "Which tissue consists of living, thin-walled cells and often performs storage and photosynthesis?",
     "options": [
-      "Parenchyma",
       "Sclerenchyma",
+      "Parenchyma",
       "Xylem fibres",
       "Cork"
     ],
-    "answer": 0,
+    "answer": 1,
     "explanation": "Parenchyma cells are living and thin-walled; chlorenchyma photosynthesises and other forms commonly store food."
   },
   {
@@ -307,11 +307,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Mature sclerenchyma cells are usually:",
     "options": [
       "living and chlorophyllous",
-      "dead with thick lignified walls",
+      "thin-walled and highly vacuolated",
       "living with corner thickening only",
-      "thin-walled and highly vacuolated"
+      "dead with thick lignified walls"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Sclerenchyma provides mechanical strength through dead cells with heavily lignified secondary walls."
   },
   {
@@ -322,11 +322,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Among xylem elements, the only one that is living at maturity is:",
     "options": [
       "tracheid",
-      "vessel element",
+      "xylem parenchyma",
       "xylem fibre",
-      "xylem parenchyma"
+      "vessel element"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "Tracheids, vessels and xylem fibres are dead at maturity; xylem parenchyma remains living."
   },
   {
@@ -338,10 +338,10 @@ window.BOTANY_QUESTIONS = [
     "options": [
       "Sieve-tube element",
       "Companion cell",
-      "Phloem parenchyma",
-      "Phloem fibre"
+      "Phloem fibre",
+      "Phloem parenchyma"
     ],
-    "answer": 3,
+    "answer": 2,
     "explanation": "Phloem fibres (bast fibres) are sclerenchymatous and dead; the main conducting and associated cells are living."
   },
   {
@@ -367,11 +367,11 @@ window.BOTANY_QUESTIONS = [
     "question": "In grasses, guard cells are typically:",
     "options": [
       "kidney-shaped",
-      "dumb-bell shaped",
+      "spherical and without chloroplasts",
       "triangular",
-      "spherical and without chloroplasts"
+      "dumb-bell shaped"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Monocot grasses commonly possess dumb-bell-shaped guard cells, whereas dicots usually have kidney-shaped guard cells."
   },
   {
@@ -397,11 +397,11 @@ window.BOTANY_QUESTIONS = [
     "question": "A vascular bundle in which xylem and phloem occur on different radii is called:",
     "options": [
       "conjoint",
-      "radial",
       "collateral closed",
+      "radial",
       "bicollateral"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Roots characteristically show radial bundles, with xylem and phloem arranged alternately on different radii."
   },
   {
@@ -412,11 +412,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The primary xylem of a typical dicot root is:",
     "options": [
       "endarch",
-      "exarch",
+      "concentric",
       "mesarch",
-      "concentric"
+      "exarch"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Protoxylem lies toward the periphery and metaxylem toward the centre, an exarch condition."
   },
   {
@@ -457,11 +457,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Vascular bundles in a young dicot stem are usually:",
     "options": [
       "radial and exarch",
-      "conjoint, collateral, open and arranged in a ring",
+      "concentric and amphicribral",
       "conjoint, collateral, closed and scattered",
-      "concentric and amphicribral"
+      "conjoint, collateral, open and arranged in a ring"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Dicot stems possess ring-arranged bundles with phloem outside, xylem inside and cambium between them."
   },
   {
@@ -472,11 +472,11 @@ window.BOTANY_QUESTIONS = [
     "question": "A typical monocot stem has vascular bundles that are:",
     "options": [
       "arranged in a ring and open",
-      "scattered in ground tissue and closed",
+      "restricted to the pith",
       "radial and exarch",
-      "restricted to the pith"
+      "scattered in ground tissue and closed"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Monocot stem bundles are numerous, scattered, collateral and closed because vascular cambium is absent."
   },
   {
@@ -487,11 +487,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The water-containing cavity commonly seen within a monocot stem vascular bundle is the:",
     "options": [
       "resin canal",
-      "protoxylem lacuna",
+      "secretory duct",
       "lenticel",
-      "secretory duct"
+      "protoxylem lacuna"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Disintegration of protoxylem elements produces a protoxylem lacuna in many monocot stems."
   },
   {
@@ -502,11 +502,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Which comparison is correct?<div class='data-table-wrap'><table class='data-table'><thead><tr><th>Feature</th><th>Dicot stem</th><th>Monocot stem</th></tr></thead><tbody><tr><td>I</td><td>Bundles in ring</td><td>Bundles scattered</td></tr><tr><td>II</td><td>Bundles open</td><td>Bundles closed</td></tr><tr><td>III</td><td>Hypodermis usually collenchymatous</td><td>Hypodermis usually sclerenchymatous</td></tr></tbody></table></div>",
     "options": [
       "I only",
-      "I and II only",
+      "I, II and III",
       "II and III only",
-      "I, II and III"
+      "I and II only"
     ],
-    "answer": 3,
+    "answer": 1,
     "explanation": "All three are standard distinctions between young dicot and monocot stems."
   },
   {
@@ -577,11 +577,11 @@ window.BOTANY_QUESTIONS = [
     "question": "During normal secondary growth in a dicot stem, vascular cambium produces:",
     "options": [
       "secondary phloem inward and secondary xylem outward",
-      "secondary xylem inward and secondary phloem outward",
       "cork outward and phelloderm inward",
+      "secondary xylem inward and secondary phloem outward",
       "primary xylem and primary phloem only"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Cambial cells cut off more secondary xylem toward the pith and secondary phloem toward the outside."
   },
   {
@@ -592,11 +592,11 @@ window.BOTANY_QUESTIONS = [
     "question": "The continuous cambial ring of a dicot stem is formed by union of:",
     "options": [
       "apical and intercalary meristems",
-      "intrafascicular and interfascicular cambia",
+      "primary xylem and medullary ray",
       "cork cambium and pericycle",
-      "primary xylem and medullary ray"
+      "intrafascicular and interfascicular cambia"
     ],
-    "answer": 1,
+    "answer": 3,
     "explanation": "Cambium within bundles joins newly formed cambium between bundles to create a continuous ring."
   },
   {
@@ -606,12 +606,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "Spring wood generally has:",
     "options": [
-      "narrower vessels and higher density than autumn wood",
       "larger vessel elements and lower density than autumn wood",
+      "narrower vessels and higher density than autumn wood",
       "only phloem and no xylem",
       "dark, compact cells with no conduction"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Favourable spring conditions produce wider xylem elements and lighter, lower-density wood; autumn wood is denser with narrower elements."
   },
   {
@@ -637,11 +637,11 @@ window.BOTANY_QUESTIONS = [
     "question": "Cork cambium usually cuts off:",
     "options": [
       "phellem inward and phelloderm outward",
-      "phellem outward and phelloderm inward",
       "secondary xylem outward only",
+      "phellem outward and phelloderm inward",
       "companion cells on both sides"
     ],
-    "answer": 1,
+    "answer": 2,
     "explanation": "Phellogen forms dead, suberised cork or phellem externally and living secondary cortex or phelloderm internally."
   },
   {
@@ -651,12 +651,12 @@ window.BOTANY_QUESTIONS = [
     "difficulty": "Moderate",
     "question": "The simplified stem sector shows tissue X produced outside and tissue Y produced inside by the same lateral meristem.<div class='diagram-card'><svg viewBox='0 0 420 170' role='img' aria-label='Concentric stem tissues around cork cambium'><rect x='25' y='35' width='370' height='100' rx='48' fill='#f2dfca' stroke='#8a5a2b' stroke-width='3'/><rect x='70' y='53' width='280' height='64' rx='32' fill='#d8f0d2' stroke='#3e7d42' stroke-width='3'/><rect x='122' y='68' width='176' height='34' rx='17' fill='#fff9e8' stroke='#b18a2d' stroke-width='3'/><text x='48' y='90' text-anchor='middle' font-size='15'>X</text><text x='95' y='90' text-anchor='middle' font-size='15'>cork cambium</text><text x='210' y='91' text-anchor='middle' font-size='15'>Y</text></svg></div>X and Y are respectively:",
     "options": [
-      "phelloderm and phellem",
       "phellem and phelloderm",
+      "phelloderm and phellem",
       "secondary xylem and secondary phloem",
       "epidermis and pericycle"
     ],
-    "answer": 1,
+    "answer": 0,
     "explanation": "Cork cambium produces phellem toward the outside and phelloderm toward the inside; together they form periderm."
   },
   {
