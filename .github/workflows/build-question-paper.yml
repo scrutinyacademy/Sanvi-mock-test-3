@@ -21,12 +21,25 @@ jobs:
       - name: Check out question bank
         uses: actions/checkout@v5
 
-      - name: Verify printable paper
+      - name: Verify source question bank
         run: |
           test -f question-paper.html
           test -f question-paper.css
           test "$(grep -h '"id":' data/*.js | wc -l)" -eq 180
           google-chrome --version
+
+      - name: Validate rendered paper
+        run: |
+          google-chrome \
+            --headless=new \
+            --no-sandbox \
+            --disable-gpu \
+            --allow-file-access-from-files \
+            --virtual-time-budget=5000 \
+            --dump-dom \
+            "file://$GITHUB_WORKSPACE/question-paper.html" > /tmp/sanvi-question-paper-rendered.html
+          grep -q 'data-paper-ready="true"' /tmp/sanvi-question-paper-rendered.html
+          test "$(grep -o 'class="print-question' /tmp/sanvi-question-paper-rendered.html | wc -l)" -eq 180
 
       - name: Render complete PDF
         run: |
@@ -41,6 +54,15 @@ jobs:
             "file://$GITHUB_WORKSPACE/question-paper.html"
           test -s Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
           ls -lh Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
+          if command -v pdfinfo >/dev/null 2>&1; then
+            pdfinfo Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf | tee /tmp/pdf-info.txt
+            test "$(awk '/^Pages:/ {print $2}' /tmp/pdf-info.txt)" -ge 30
+          fi
+          if command -v pdftotext >/dev/null 2>&1; then
+            pdftotext Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf /tmp/paper.txt
+            grep -q "SANVI MANTRI" /tmp/paper.txt
+            grep -q "Zoology" /tmp/paper.txt
+          fi
 
       - name: Upload PDF artifact
         uses: actions/upload-artifact@v4
@@ -49,7 +71,7 @@ jobs:
           path: Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
           if-no-files-found: error
 
-      - name: Publish PDF to repository and live site
+      - name: Publish PDF to repository
         run: |
           git config user.name "scrutinyacademy"
           git config user.email "scrutinyacademy@gmail.com"
@@ -57,6 +79,5 @@ jobs:
           if git diff --cached --quiet; then
             exit 0
           fi
-          git commit -m "Add complete printable Unit Test 3 question paper PDF"
+          git commit -m "Update complete printable Unit Test 3 question paper PDF"
           git push origin HEAD:main
-          git push origin HEAD:gh-pages
