@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sanvi Mantri — NEET 2028 Unit Test 3 Question Paper</title>
+  <link rel="stylesheet" href="question-paper.css">
+</head>
+<body>
+  <footer class="page-footer">
+    <span>SCRUTINY ACADEMY • NEET 2028 UNIT TEST 3</span>
+    <span>SANVI MANTRI</span>
+  </footer>
+
+  <section class="cover-page">
+    <div class="cover-top">
+      <img src="assets/logo.svg" alt="Scrutiny Academy logo">
+      <div><strong>SCRUTINY ACADEMY</strong><span>Doctor in the Making Series</span></div>
+    </div>
+    <div class="medical-line"><span>✚</span><i></i><span>⚕</span><i></i><span>✚</span></div>
+    <p class="cover-kicker">PERSONALISED NEET 2028 EXAMINATION</p>
+    <h1>UNIT TEST <b>3</b></h1>
+    <h2>Question Paper</h2>
+    <div class="candidate-box">
+      <span>EXCLUSIVELY DESIGNED FOR</span>
+      <strong>SANVI MANTRI</strong>
+      <small>NEET 2028 Aspirant</small>
+    </div>
+    <div class="cover-stats">
+      <div><strong>180</strong><span>Questions</span></div>
+      <div><strong>720</strong><span>Maximum Marks</span></div>
+      <div><strong>3 Hours</strong><span>Duration</span></div>
+      <div><strong>+4 / −1</strong><span>Marking</span></div>
+    </div>
+    <div class="syllabus-box">
+      <h3>Test syllabus</h3>
+      <table>
+        <tr><th>Physics</th><td>Laws of Motion: friction through the end; Work, Energy &amp; Power: up to Power</td><td>45 MCQs</td></tr>
+        <tr><th>Chemistry</th><td>Thermodynamics</td><td>45 MCQs</td></tr>
+        <tr><th>Botany</th><td>Morphology: Fabaceae, Solanaceae &amp; Liliaceae; complete Anatomy of Flowering Plants</td><td>45 MCQs</td></tr>
+        <tr><th>Zoology</th><td>Structural Organisation in Animals: Frog only</td><td>45 MCQs</td></tr>
+      </table>
+    </div>
+    <div class="all-best">
+      <strong>All the best, Sanvi!</strong>
+      <p>You’re one step closer to becoming a doctor. Stay calm, trust your preparation and give every question your honest best.</p>
+      <span>— Scrutiny Academy Team</span>
+    </div>
+    <div class="designed-by">EXAM DESIGNED BY SCRUTINY ACADEMY TEAM</div>
+  </section>
+
+  <section class="instruction-page">
+    <div class="page-title">
+      <span>READ CAREFULLY</span>
+      <h1>General Instructions</h1>
+    </div>
+    <ol class="instructions">
+      <li>The question paper contains <strong>180 compulsory multiple-choice questions</strong> divided equally among Physics, Chemistry, Botany and Zoology.</li>
+      <li>The total duration is <strong>3 hours</strong> and the maximum possible score is <strong>720 marks</strong>.</li>
+      <li>Each correct answer carries <strong>+4 marks</strong>. Each incorrect answer carries <strong>−1 mark</strong>. An unattempted question carries zero marks.</li>
+      <li>Each question has four alternatives—A, B, C and D—of which only one is the most appropriate answer.</li>
+      <li>Use the response sheet supplied at the end of this paper for rough marking, or submit answers through the official online test page.</li>
+      <li>Use g = 10 m s⁻² wherever explicitly stated. Otherwise use the data provided in the question.</li>
+      <li>Tables and diagrams form an integral part of their respective questions.</li>
+      <li>Do not consult books, notes or online sources during the examination.</li>
+    </ol>
+    <div class="paper-map">
+      <h2>Question map</h2>
+      <div class="map-grid">
+        <div class="physics"><b>01–45</b><span>Physics</span></div>
+        <div class="chemistry"><b>46–90</b><span>Chemistry</span></div>
+        <div class="botany"><b>91–135</b><span>Botany</span></div>
+        <div class="zoology"><b>136–180</b><span>Zoology</span></div>
+      </div>
+    </div>
+    <div class="candidate-details">
+      <h2>Candidate details</h2>
+      <p><span>Name</span><b>Sanvi Mantri</b></p>
+      <p><span>Date</span><i></i></p>
+      <p><span>Start time</span><i></i><span>End time</span><i></i></p>
+      <p><span>Signature</span><i></i></p>
+    </div>
+    <div class="integrity-note"><strong>Exam integrity note</strong><p>The online test permits one attempt on the device where it is started. Begin only when ready to complete the full examination.</p></div>
+  </section>
+
+  <main id="paperContent" aria-label="Complete question paper"></main>
+
+  <section class="response-sheet">
+    <div class="page-title"><span>ROUGH RESPONSE RECORD</span><h1>Answer Sheet</h1></div>
+    <p>Shade or circle one response for each question. Final scoring is performed by the online examination.</p>
+    <div id="answerSheetGrid" class="answer-sheet-grid"></div>
+    <div class="rough-score">
+      <span>Correct: ______ × 4 = ______</span>
+      <span>Incorrect: ______ × 1 = ______</span>
+      <span>Final score: ______ / 720</span>
+    </div>
+  </section>
+
+  <script src="data/physics.js"></script>
+  <script src="data/chemistry.js"></script>
+  <script src="data/botany.js"></script>
+  <script src="data/zoology.js"></script>
+  <script>
+    (() => {
+      const questions = [
+        ...(window.PHYSICS_QUESTIONS || []),
+        ...(window.CHEMISTRY_QUESTIONS || []),
+        ...(window.BOTANY_QUESTIONS || []),
+        ...(window.ZOOLOGY_QUESTIONS || [])
+      ];
+      const sectionInfo = {
+        Physics: { range: "Questions 01–45", icon: "F = ma" },
+        Chemistry: { range: "Questions 46–90", icon: "ΔG" },
+        Botany: { range: "Questions 91–135", icon: "✤" },
+        Zoology: { range: "Questions 136–180", icon: "⚕" }
+      };
+      const letter = (i) => String.fromCharCode(65 + i);
+      const paper = document.getElementById("paperContent");
+
+      Object.keys(sectionInfo).forEach((section) => {
+        const sectionQuestions = questions.filter((q) => q.section === section);
+        const wrapper = document.createElement("section");
+        wrapper.className = "subject-section " + section.toLowerCase();
+        wrapper.innerHTML = `
+          <header class="subject-cover">
+            <div class="subject-mark">${sectionInfo[section].icon}</div>
+            <span>SECTION</span>
+            <h1>${section}</h1>
+            <p>${sectionInfo[section].range} • 45 Questions • 180 Marks</p>
+          </header>
+          <div class="questions-list"></div>
+        `;
+        const list = wrapper.querySelector(".questions-list");
+        sectionQuestions.forEach((q) => {
+          const globalNumber = questions.indexOf(q) + 1;
+          const article = document.createElement("article");
+          article.className = "print-question" + (q.question.includes("<table") || q.question.includes("<svg") ? " visual-question" : "");
+          article.innerHTML = `
+            <div class="question-heading">
+              <b>${String(globalNumber).padStart(3, "0")}.</b>
+              <span>${q.topic}</span>
+              <i>${q.difficulty}</i>
+            </div>
+            <div class="question-stem">${q.question}</div>
+            <ol class="print-options" type="A">
+              ${q.options.map((option, index) => `<li><span class="choice-letter">${letter(index)}</span><span>${option}</span></li>`).join("")}
+            </ol>
+          `;
+          list.appendChild(article);
+        });
+        paper.appendChild(wrapper);
+      });
+
+      const answerGrid = document.getElementById("answerSheetGrid");
+      Object.keys(sectionInfo).forEach((section, sectionIndex) => {
+        const start = sectionIndex * 45 + 1;
+        const table = document.createElement("table");
+        table.innerHTML = `<thead><tr><th colspan="2">${section}</th></tr></thead><tbody>${
+          Array.from({ length: 45 }, (_, index) => {
+            const n = start + index;
+            return `<tr><td>${n}</td><td><span>Ⓐ</span><span>Ⓑ</span><span>Ⓒ</span><span>Ⓓ</span></td></tr>`;
+          }).join("")
+        }</tbody>`;
+        answerGrid.appendChild(table);
+      });
+      document.documentElement.dataset.paperReady = questions.length === 180 ? "true" : "false";
+    })();
+  </script>
+</body>
+</html>

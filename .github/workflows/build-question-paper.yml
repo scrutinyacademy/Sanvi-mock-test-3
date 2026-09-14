@@ -1,0 +1,62 @@
+name: Build complete question paper PDF
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "question-paper.html"
+      - "question-paper.css"
+      - "data/**"
+      - "assets/logo.svg"
+      - ".github/workflows/build-question-paper.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out question bank
+        uses: actions/checkout@v5
+
+      - name: Verify printable paper
+        run: |
+          test -f question-paper.html
+          test -f question-paper.css
+          test "$(grep -h '"id":' data/*.js | wc -l)" -eq 180
+          google-chrome --version
+
+      - name: Render complete PDF
+        run: |
+          google-chrome \
+            --headless=new \
+            --no-sandbox \
+            --disable-gpu \
+            --allow-file-access-from-files \
+            --no-pdf-header-footer \
+            --virtual-time-budget=5000 \
+            --print-to-pdf="$GITHUB_WORKSPACE/Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf" \
+            "file://$GITHUB_WORKSPACE/question-paper.html"
+          test -s Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
+          ls -lh Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Sanvi-NEET-Unit-Test-3-Question-Paper
+          path: Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
+          if-no-files-found: error
+
+      - name: Publish PDF to repository and live site
+        run: |
+          git config user.name "scrutinyacademy"
+          git config user.email "scrutinyacademy@gmail.com"
+          git add Sanvi_NEET_Unit_Test_3_Complete_Question_Paper.pdf
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Add complete printable Unit Test 3 question paper PDF"
+          git push origin HEAD:main
+          git push origin HEAD:gh-pages

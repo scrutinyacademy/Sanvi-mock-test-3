@@ -1,0 +1,46 @@
+:root{
+  --ink:#153943;--muted:#62777d;--navy:#073b4c;--teal:#087f6b;--line:#cddddd;
+  --physics:#2965bb;--chemistry:#8445ad;--botany:#2a8550;--zoology:#c76822
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;font-size:10.2pt;line-height:1.42}
+@page{size:A4;margin:12mm 13mm 15mm}
+.page-footer{position:fixed;bottom:-10mm;left:0;right:0;border-top:.25mm solid #aebfc2;padding-top:2mm;display:flex;justify-content:space-between;color:#71858a;font-size:6.8pt;letter-spacing:.08em;z-index:10}
+.cover-page,.instruction-page,.response-sheet{min-height:256mm;page-break-after:always;position:relative}
+.cover-page{border:1.2mm solid var(--navy);padding:14mm 13mm 10mm;background:linear-gradient(145deg,#fff 0%,#f5fbfa 72%,#e5f6f2 100%);overflow:hidden}
+.cover-page:after{content:"⚕";position:absolute;right:-10mm;bottom:-20mm;color:rgba(8,127,107,.06);font:190pt Georgia,serif}
+.cover-top{display:flex;align-items:center;gap:4mm;border-bottom:.3mm solid var(--line);padding-bottom:5mm}
+.cover-top img{width:23mm;height:23mm;border-radius:50%}.cover-top div{display:flex;flex-direction:column}.cover-top strong{font-size:18pt;letter-spacing:.05em;color:var(--navy)}.cover-top span{color:var(--teal);font-size:8pt;text-transform:uppercase;letter-spacing:.18em;font-weight:700}
+.medical-line{display:flex;align-items:center;gap:4mm;color:var(--teal);margin:12mm 0 7mm}.medical-line i{height:.3mm;background:#a8d7cd;flex:1}.medical-line span{font-size:16pt}
+.cover-kicker{text-align:center;color:var(--teal);font-size:8pt;font-weight:700;letter-spacing:.2em;margin:0}
+.cover-page h1{text-align:center;font:700 42pt/1 Georgia,serif;color:var(--navy);margin:5mm 0 1mm;letter-spacing:-.03em}.cover-page h1 b{color:var(--teal)}
+.cover-page>h2{text-align:center;font:italic 17pt Georgia,serif;color:var(--muted);margin:0 0 8mm}
+.candidate-box{border:.7mm solid var(--navy);border-radius:4mm;padding:5mm;text-align:center;background:#fff}.candidate-box span{display:block;font-size:7pt;letter-spacing:.16em;color:var(--muted);font-weight:700}.candidate-box strong{display:block;font:700 25pt Georgia,serif;color:var(--navy);margin:1mm}.candidate-box small{color:var(--teal);font-weight:700}
+.cover-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2mm;margin:5mm 0}.cover-stats div{text-align:center;border:.3mm solid var(--line);border-radius:2.5mm;background:#fff;padding:3mm 1mm}.cover-stats strong{display:block;color:var(--navy);font-size:13pt}.cover-stats span{display:block;text-transform:uppercase;color:var(--muted);font-size:5.6pt;letter-spacing:.08em;margin-top:1mm}
+.syllabus-box{border:.3mm solid var(--line);border-radius:3mm;background:#fff;padding:4mm}.syllabus-box h3{font:700 13pt Georgia,serif;color:var(--navy);margin:0 0 2mm}.syllabus-box table{width:100%;border-collapse:collapse;font-size:7.5pt}.syllabus-box th,.syllabus-box td{border-top:.2mm solid #e0e9e9;padding:2mm;text-align:left}.syllabus-box th{color:var(--teal);width:20mm}.syllabus-box td:last-child{white-space:nowrap;text-align:right;font-weight:700}
+.all-best{margin-top:5mm;background:var(--navy);color:#fff;border-radius:3mm;padding:4mm 5mm;position:relative;z-index:1}.all-best strong{font:700 14pt Georgia,serif}.all-best p{font-size:8pt;color:#d7f1ed;margin:1mm 0}.all-best span{font-size:7pt;color:#86dfcf;font-weight:700}
+.designed-by{text-align:center;margin-top:4mm;color:var(--teal);font-size:6.5pt;letter-spacing:.17em;font-weight:700;position:relative;z-index:1}
+
+.instruction-page{padding:9mm 6mm}.page-title span{font-size:7pt;font-weight:700;letter-spacing:.18em;color:var(--teal)}.page-title h1{font:700 29pt/1.1 Georgia,serif;margin:2mm 0 7mm;color:var(--navy)}
+.instructions{margin:0;padding-left:7mm;counter-reset:item}.instructions li{margin:0 0 4mm;padding:3.5mm 4mm;background:#f7fbfa;border-left:1mm solid #9bd2c7;border-radius:0 2mm 2mm 0}
+.paper-map{margin:8mm 0 7mm}.paper-map h2,.candidate-details h2{font:700 15pt Georgia,serif;color:var(--navy);margin:0 0 3mm}.map-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2mm}.map-grid div{padding:4mm;border-radius:3mm;color:#fff;display:flex;flex-direction:column}.map-grid b{font-size:15pt}.map-grid span{font-size:7pt;text-transform:uppercase;letter-spacing:.1em}.physics{background:var(--physics)}.chemistry{background:var(--chemistry)}.botany{background:var(--botany)}.zoology{background:var(--zoology)}
+.candidate-details{border:.3mm solid var(--line);border-radius:3mm;padding:5mm}.candidate-details p{display:flex;align-items:end;gap:3mm;margin:3mm 0}.candidate-details p span{font-size:8pt;text-transform:uppercase;color:var(--muted);font-weight:700}.candidate-details p b{font-size:12pt}.candidate-details p i{display:block;border-bottom:.25mm solid #819397;height:5mm;flex:1}
+.integrity-note{margin-top:6mm;border:.3mm solid #e2bd66;background:#fff7de;padding:4mm;border-radius:3mm}.integrity-note strong{color:#785816}.integrity-note p{margin:1mm 0 0;font-size:8pt;color:#765f2b}
+
+.subject-section{page-break-before:always}.subject-cover{height:245mm;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;border:1mm solid currentColor;position:relative;page-break-after:always}.subject-cover:before,.subject-cover:after{content:"";position:absolute;width:34mm;height:34mm;border:.4mm solid currentColor;opacity:.12;border-radius:50%}.subject-cover:before{left:15mm;top:15mm}.subject-cover:after{right:15mm;bottom:15mm}.subject-mark{width:32mm;height:32mm;border-radius:50%;display:grid;place-items:center;background:currentColor;color:#fff;font:700 18pt Georgia,serif;margin-bottom:7mm}.subject-cover>span{font-size:8pt;letter-spacing:.25em;font-weight:700;opacity:.7}.subject-cover h1{font:700 46pt/1 Georgia,serif;margin:3mm 0}.subject-cover p{margin:0;font-size:10pt}.subject-section.physics .subject-cover{color:var(--physics)}.subject-section.chemistry .subject-cover{color:var(--chemistry)}.subject-section.botany .subject-cover{color:var(--botany)}.subject-section.zoology .subject-cover{color:var(--zoology)}
+.questions-list{padding-top:2mm}
+.print-question{page-break-inside:avoid;break-inside:avoid;border-bottom:.25mm solid #cbd9da;padding:0 0 4mm;margin:0 0 4mm}
+.question-heading{display:flex;align-items:center;gap:2mm;margin-bottom:1.5mm}.question-heading b{font-size:11pt;color:var(--navy)}.question-heading span{font-size:6.5pt;text-transform:uppercase;letter-spacing:.07em;font-weight:700;color:var(--teal);background:#e9f7f4;padding:1mm 2mm;border-radius:1.5mm}.question-heading i{margin-left:auto;font-style:normal;font-size:6pt;color:var(--muted);text-transform:uppercase}
+.question-stem{font-size:9.5pt;font-weight:600;line-height:1.45;margin-left:8mm}
+.print-options{list-style:none;padding:0;margin:2.2mm 0 0 8mm;display:grid;grid-template-columns:1fr 1fr;gap:1.5mm 5mm}.print-options li{display:grid;grid-template-columns:6mm 1fr;align-items:start;font-size:8.7pt}.choice-letter{width:5mm;height:5mm;border:.25mm solid #9aabad;border-radius:50%;display:grid;place-items:center;font-size:6.5pt;font-weight:700;margin-top:.2mm}
+.visual-question{padding:3mm;border:.3mm solid #cbd9da;border-radius:3mm;margin-bottom:5mm}.visual-question .question-stem{margin-left:0}
+.data-table-wrap{margin:2.5mm 0;overflow:visible}.data-table{border-collapse:collapse;width:100%;font-size:7.5pt}.data-table th,.data-table td{border:.25mm solid #9fb3b6;padding:1.5mm;text-align:center}.data-table th{background:#e9f4f2}
+.diagram-card{width:75%;margin:2.5mm auto;border:.25mm solid #c8d9d8;border-radius:2mm;padding:2mm}.diagram-card svg{display:block;width:100%;height:auto}
+
+.response-sheet{padding:8mm 3mm;page-break-after:auto}.response-sheet>p{font-size:8pt;color:var(--muted);margin-top:-4mm}.answer-sheet-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:3mm;margin-top:5mm;align-items:start}.answer-sheet-grid table{border-collapse:collapse;width:100%;font-size:6.6pt}.answer-sheet-grid th{background:var(--navy);color:#fff;padding:2mm}.answer-sheet-grid td{border:.2mm solid #c5d4d5;padding:.65mm 1mm;height:4.65mm}.answer-sheet-grid td:first-child{width:8mm;text-align:right;font-weight:700;color:var(--navy)}.answer-sheet-grid td:last-child{display:flex;justify-content:space-around;gap:.5mm}.answer-sheet-grid td span{font-size:7.4pt;color:#536a70}
+.rough-score{margin-top:7mm;border:.4mm solid var(--navy);padding:4mm;display:flex;justify-content:space-between;font-size:8pt;font-weight:700}
+
+@media screen{
+  body{background:#dfe9e8;padding:20px}.cover-page,.instruction-page,.subject-cover,.response-sheet,.questions-list{background:#fff;max-width:210mm;margin:0 auto 20px;padding:14mm;box-shadow:0 5px 25px rgba(0,0,0,.12)}.questions-list{padding-top:8mm}.page-footer{display:none}
+}
